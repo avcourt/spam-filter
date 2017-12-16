@@ -1,0 +1,30 @@
+I realize this is an old thread, but I just had to comment:
+
+On Tuesday, Aug 13, 2002, at 08:43 US/Eastern, Matthias Saou wrote:
+
+> Once upon a time, Dave wrote :
+>
+>> Eeeek... I hope they aren't intending to release a new RH with a new 
+>> gcc
+>> which hasn't yet been released (again). Bad enough the first time, and
+>> I'm sure it gave RedHat a lot of embarrassment.
+>
+> Not really, it should have given more embarrassment to sloppy C++
+> programmers although they often were the ones bashing on gcc 2.96...
+
+A lot of C++ programmers, myself included, were /not/ complaining about 
+gcc's stricter adherence to the specification (which, by the way, a lot 
+of kernel programmers complain about with gcc 3.x -- at least, the 
+patch authors I've talked to hate gcc 3) -- gcc "2.96" had a lot of 
+bugs. A lot. It crashed on me many times while working on my projects. 
+Later "versions" of "2.96" fixed this, but it was well after 3.0 was 
+released that it finally seemed reasonably stable -- and at that point, 
+I just wanted to use 3.0, so I did.
+
+Julian
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

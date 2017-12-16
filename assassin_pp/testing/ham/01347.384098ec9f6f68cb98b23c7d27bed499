@@ -1,0 +1,33 @@
+
+Marc -- 
+
+Since perl itself is a scripting language, and allows code to be eval'ed,
+I can't see why we need to go the whole hog and implement another
+turing-complete scripting language in perl.
+
+Let's go back to *why* this would be useful.  As far as I can see, you're
+proposing this to deal with multi-match rules.  There's already a tracker
+in the bug DB for these, with a proposed implementation.
+
+  http://www.hughes-family.org/bugzilla/show_bug.cgi?id=47
+
+I think this might have stalled due to shortcomings in the existnig
+proposal, so I've just added my own thoughts on how to implement them. ;)
+Comments on the proposed system would be welcome folks.... reply to the
+bug db.
+
+--j.
+
+-- 
+'Justin Mason' => { url => http://jmason.org/ , blog => http://taint.org/ }
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

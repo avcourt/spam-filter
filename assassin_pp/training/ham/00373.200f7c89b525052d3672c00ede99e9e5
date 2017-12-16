@@ -1,0 +1,14 @@
+>  Curiously, when I go into the boot prom, an use
+> 
+>  "set_params" I can tell it to mount /dev/hda2 as root. But 
+> then it uses the PROM copy of the kernel (dodgy 2.2.16 
+> kernel), which doesn't know ext3, so wants to fsck up my disk.
+
+Boot prom on a cobalt? Is this an old mips based one? How did you get to it?
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

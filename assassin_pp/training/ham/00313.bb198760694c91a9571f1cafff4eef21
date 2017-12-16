@@ -1,0 +1,29 @@
+Hi all,
+
+I have a debian machine with an external ISDN terminal adapter, which 
+I'm trying to get to dial a Cisco 3600 running CHAP. wvdial on Red Hat 
+copes fine with this. However, I get the same results if i use pon or 
+wvdial on Debian: pppd negotiation is detected, pppd is started -- and 
+I'm never assigned an IP address.
+
+Looking at the logs on the Cisco, I see that in place of the username I 
+seem to be transmitting a six-digit hex number. e.g.:
+
+Aug  8 23:35:00.311 UTC+1: %ISDN-6-CONNECT: Interface Serial0/0:19 is 
+now connected to <phonenum> 19eb85
+
+The last entry should be my dialup username. (Substitute incoming phone 
+number for <phonenum>).
+
+Any ideas what I'm doing wrong?
+
+Cheers,
+Dave
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

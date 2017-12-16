@@ -1,0 +1,20 @@
+On Fri, Aug 02, 2002 at 09:55:02AM +0000, Conor Daly wrote:
+> looks like there is a trojan in the latest OpenSSH
+
+and the amazing bit is that it was caught in 6 hours thanks to the
+freebsd ports system (it automatically checks md5sums).
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

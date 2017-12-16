@@ -1,0 +1,27 @@
+Kate asked about this several months ago, and I posted some code and hints on 
+how to work around this problem. AFAIR, you simply refer to the form elements 
+by their names, including brackets, but put " or ' around them, ie:
+
+val = "document.form.city[1]";
+
+I think that works, there's an answer to this question on http://faqts.com/ 
+where I got the original answer.
+
+Donncha.
+
+On Monday 19 August 2002 18:28, Dave Wilson wrote:
+> > er, i understood you until you reached the above. Maybe its my lack of
+> > PHP but why would a variable name _need_ to end with [] ?
+> >
+> > With most languages you parse the submitted form data and should come
+> > out with either variables or an array / hash, which you then work with
+> > and name whatever you like.
+>
+> IIRC, if the query string contains
+>
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

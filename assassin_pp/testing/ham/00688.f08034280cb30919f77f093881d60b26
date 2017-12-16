@@ -1,0 +1,53 @@
+--==_Exmh_692927479P
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Mon, 22 Jul 2002 20:15:11 +0200
+>
+> My feeling of this is that we really do not want to have a 
+> Ftoc_ClearCurrent, but rather just a RescanLine and the caller had 
+> better know the line or msgid. That routine shoud just put in the '+' 
+> if the line/msg in question happened to be the cur msg. Thoughts?
+
+Intuitively, that sounds right to me.  It does also call "tag remove", so 
+you'll have to make sure that gets set correctly as well.
+
+I think any changes that make it behave more intuitively are a good thing even 
+if they mean we have something else to fix.  Of course, that attitude is why 
+I've been fixing exmh bugs for 3 weeks.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_692927479P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9PE/pK9b4h5R0IUIRAiVOAJ0cuYMd0PbazzLvJrw1Z08LLnX1EgCgjeF5
+Bf2L4R4Z71GVGMxg/RhE43E=
+=vE1b
+-----END PGP SIGNATURE-----
+
+--==_Exmh_692927479P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

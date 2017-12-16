@@ -1,0 +1,31 @@
+On Thu, 25 Jul 2002 15:25:05 +0200, Matthias Saou <matthias@egwn.net> wrote:
+
+> This is called "pseudo-packages" or "meta-packages" and Debian has been
+> using them for ages. I think Mandrake also makes these kind of empty
+> packages.
+> 
+> Anyway, their use has been discussed here a while back, and personally
+> although I do agree that they can be useful at times, I don't really like
+> them. For me it's more of an ugly "hack" than anything else, and I'd
+> approve completely a system that would enable to install/remove entire
+> categories of software... but not if achieved by building empty packages.
+> 
+> Also, you can trivially do "apt-get install <metapackage>", but removing
+> all that it installed is a bit less trivial, and could be implemented in a
+> trivial and clean fashion if using some functionality meant to do this.
+
+    Yeah, well, I'm about to chuck the whole darned thing right now: the first upgrade to Gnome2 wiped out the possibility of changing preferences...exactly what got me outta Ximian before.  I understand Gnomehide has the same files, right?  I'm thinking about excorsizing the durned Ximian again...
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

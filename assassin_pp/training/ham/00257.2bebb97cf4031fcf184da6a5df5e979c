@@ -1,0 +1,22 @@
+Quoting cout@eircom.net (cout@eircom.net):
+
+> You need to run the dos setup program for the 3c509 and turn off plug
+> 'n' play in the card's firmware I think you will find.
+
+As Kevin said, the problem can reputedly be solved using Donald Becker's 
+Linux-native utilities for the 3C5X9 series.  Turn off PnP, and then set 
+the IRQ and I/O base address as required.  Make sure those are also
+made available in the motherboard BIOS Setup program to "Legacy ISA
+devices" or whatever it's called, there.
+
+-- 
+Cheers,              "It ain't so much the things we don't know that get us
+Rick Moen            in trouble.  It's the things we know that ain't so."
+rick@linuxmafia.com             -- Artemus Ward (1834-67), U.S. journalist
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

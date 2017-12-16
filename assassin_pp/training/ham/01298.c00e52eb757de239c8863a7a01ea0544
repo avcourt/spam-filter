@@ -1,0 +1,77 @@
+Update of /cvsroot/spamassassin/spamassassin
+In directory usw-pr-cvs1:/tmp/cvs-serv21113
+
+Modified Files:
+	MANIFEST Makefile.PL 
+Log Message:
+patch from Radoslaw Zielinski <radek@karnet.pl>: rpm support for PLD Linux Distribution.  Makefile.PL created Makefile, which caused problems with DESTDIR; fixed. also rc-script for PLD
+
+Index: MANIFEST
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/MANIFEST,v
+retrieving revision 1.80
+retrieving revision 1.81
+diff -u -d -r1.80 -r1.81
+--- MANIFEST	23 Jul 2002 13:43:40 -0000	1.80
++++ MANIFEST	23 Jul 2002 15:34:00 -0000	1.81
+@@ -123,3 +123,4 @@
+ tools/translation_prep.pl
+ masses/lint-rules-from-freqs
+ masses/freqdiff
++spamd/pld-rc-script.sh
+
+Index: Makefile.PL
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/Makefile.PL,v
+retrieving revision 1.31
+retrieving revision 1.32
+diff -u -d -r1.31 -r1.32
+--- Makefile.PL	4 Jul 2002 14:26:15 -0000	1.31
++++ Makefile.PL	23 Jul 2002 15:34:00 -0000	1.32
+@@ -1,6 +1,6 @@
+ require 5.005;
+ 
+-my $DEF_RULES_DIR	= '$(PREFIX)/share/spamassassin';
++my $DEF_RULES_DIR	= '$(DESTDIR)$(PREFIX)/share/spamassassin';
+ 
+ my $LOCAL_RULES_DIR	= '/etc/mail/spamassassin';
+ 
+@@ -83,7 +83,7 @@
+     # do this with MakeMaker without it trying to build the perl
+     # modules as .so's :(
+ 
+-qq{
++qq#
+ 
+ RULES		= $rulesfiles
+ 
+@@ -98,7 +98,7 @@
+ DEF_RULES_DIR	= $DEF_RULES_DIR
+ LOCAL_RULES_DIR	= $LOCAL_RULES_DIR
+ 
+-}. q{
++#. q#
+ 
+ pm_to_blib: spamassassin doc/.made
+ 
+@@ -159,5 +159,6 @@
+ 	touch doc/.made
+ 	-rm -f pod2htm*
+ 
+-};
++#;
++
+ }
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+
+

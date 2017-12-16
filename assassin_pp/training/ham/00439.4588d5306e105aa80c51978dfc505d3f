@@ -1,0 +1,31 @@
+
+On Pungenday, the 9th day of Bureaucracy, Padraig Brady confessed:
+> How can I repeat a string an arbitrary number
+> of times in bash/sed/...
+>
+> I.E. I'm missing the repeat in the following:
+>
+> STRING="> "
+> NUMBER=3
+> PREFIX=repeat $STRING $NUMBER
+> echo $PREFIX
+> > > >
+
+
+perl ?
+
+  STRING="> "
+  NUMBER=3
+  PREFIX=`perl -e "print '$STRING' x $NUMBER;"`
+  echo $PREFIX
+
+I'm pretty sure the bsd 'jot' utility can do this too, but I don't
+have it to hand.
+
+-kev
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

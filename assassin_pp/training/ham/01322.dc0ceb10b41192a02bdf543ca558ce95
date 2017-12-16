@@ -1,0 +1,54 @@
+I rigged this up for testing before I commit to a sitewide rollout of
+Spamassassin as an SMTP relay.
+It is more work, but it avoids sitewide changes in mail delivery during the
+early stages of testing.
+
+On the Exchange server... (mail.yourdomain.com)
+Create a new, private SMTP address (nomorespam@yourdomain.com) for the
+mailbox you want to protect. Remove the old address.
+
+Create a "custom recipient" with the old SMTP address
+(spammedalot@yourdomain.com). Create another custom recipient pointing at a
+local user on the Spamassassin box (killspam@filtermail.yourdomain.com).
+
+Set the first custom recipient to forward all mail to the second custom
+recipient. (must forward to another address in the Exchange directory)
+
+On the Spamassassin box... (filtermail.yourdomain.com)
+Set up a dummy user, in this case "killspam"
+Give killspam a .forward file pointing to the final recipient's new, private
+smtp address back on the Exchange server.
+
+So the message flow is like this:
+
+Mail arrives on the Exchange server mail.yourdomain.com for
+spammedalot@yourdomain.com
+
+spammedalot@commonwealth.com forwards it to
+killspam@filtermail.yourdomain.com
+
+Following the .forward file, the e-mail is then forwarded to
+nomorespam@yourdomain.com
+
+
+Wowie Zowie it works. The first address I protected was myself, the second
+one I protected was postmaster.
+
+As you can see, you must create two custom recipients in Exchange and one
+dummy account with a .forward file on the spam filter box for each address
+you want to protect. Like I said, it is more work, but until I am done
+load-testing, this is the way it will stay.
+
+-jake
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

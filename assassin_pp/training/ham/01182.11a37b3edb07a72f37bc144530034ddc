@@ -1,0 +1,21 @@
+On Wed, 2002-07-31 at 06:34, John Hinsley wrote:
+> First, thanks for all the rpms, and especially ogle (which comes very close to 
+> working perfectly on my Cyrix 333 box!).
+> 
+> Now, I desperately need some games, especially TuxKart and FlightGear, but I 
+> forever get stuck on a dependency: everything needs OpenGL. Querying the rpm 
+> database for OpenGL gets me nowhere fast. Can anyone point me in the right 
+> direction? What, in RedHat, provides OpenGL?
+> 
+
+If you have an NVIDIA card, the NVIDIA_GLX rpm provides OpenGL. It's for
+the NVidia proprietory drivers.
+
+Daniel
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

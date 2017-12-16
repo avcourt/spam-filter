@@ -1,0 +1,38 @@
+Any sage advice on the most painless way to upgrade from old limbo (.92) to new
+limbo (.93)?
+
+Apt for rpm from the 7.3 days barely works on Limbo1, and the package:
+apt-0.5.4cnc6-dwd2.src.rpm will not compile on the Libbo1 box (I was going to use
+that to dist-upgrade to Limbo2).
+
+Compile gave error on file "genpkglist.cc". First, it included "rpm/header.h" ok,
+but 2 other includes from that file (rpmio.h, hdrinline.h) could not be found. So I
+further patched the enviorment file to have "-I/usr/include/rpm".
+
+I guess that worked, but then I get this error (see below).
+
+Ohh... the pain. Any advice?
+
+
+Compiling genpkglist.cc (ed.)/rpm/BUILD/apt-0.5.4cnc6/obj/tools/genpkglist.o
+genpkglist.cc: In function `int main(int, char**)':
+genpkglist.cc:586: `rpmReadPackageHeader' undeclared (first use this function)
+genpkglist.cc:586: (Each undeclared identifier is reported only once for each
+   function it appears in.)
+genpkglist.cc:604:33: macro "headerFree" requires 2 arguments, but only 1 given
+genpkglist.cc:604: `headerFree' undeclared (first use this function)
+genpkglist.cc:605:25: macro "headerFree" requires 2 arguments, but only 1 given
+make[2]: *** [(ed.)/rpm/BUILD/apt-0.5.4cnc6/obj/tools/genpkglist.o] Error 1
+make[1]: *** [all] Error 2
+make: *** [all] Error 2
+error: Bad exit status from (ed.)/tmp/rpm-tmp.18285 (%build)
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,22 @@
+
+"Christopher Crowley" said:
+
+> That says that every line is prefixed with "SPAM: ". Could you
+> explain how to configure that in 10_misc.cf or in local.cf ?
+
+The problem with the "SPAM: " prefix, is that it's required for
+spamassassin -d (removing SpamAssassin markup) to work correctly.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

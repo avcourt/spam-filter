@@ -1,0 +1,44 @@
+Brian O'Donoghue asked:
+> > Of course, it would require a minimum of EUR300,000 in funding
+>
+> It would?
+
+Well, yes, if I were to add all the frilly pink bits and the crunchy
+chocolate flavoured pieces... :)
+
+Seriously, I can only see two reasons to start another distro: you have
+something fundamentally different to offer, or you are customising an
+existing distro for an unusual and specific situation. Between
+Mandrake/YellowDog, RedHat/SuSe and Debian you have enough options to cover
+most day-to-day requirements. And a lot of the specific situations are
+already covered (smoothwall, familiar, etc.)
+
+Therefore, if I were to create a new Linux distribution, I would have to
+spend time crafting it so that it offers a lot more than existing
+alternatives. My requirements normally involve better support/easier
+maintenance, and if one follows the logic through, this would require a
+company to be behind such an initiative.
+
+I imagine it would be possible to create a new distribution in about one
+week[1]. For example: take Debian as your base, slap a specific set of
+packages on CD, change a few config files, mention that it has been untested
+on most hardware variations, and voila, a "new" distie. :)
+
+- Matthew
+
+[1] That is, IT weeks. 1 IT week ~= two months. :)
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

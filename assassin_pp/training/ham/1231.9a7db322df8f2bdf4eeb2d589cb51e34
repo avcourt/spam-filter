@@ -1,0 +1,49 @@
+--==_Exmh_-2113882517P
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Hal DeVore <haldevore@acm.org>
+> Date:  Tue, 01 Oct 2002 23:21:21 -0500
+>
+> One possibility that occurs to me would be a button or mouse
+> click that "shrinks" the Sequences window to show only the
+> sequences in the "always show" list.  And of course a way to 
+> expand it back.
+
+That's a pretty good idea.  I'm not sure I'll get to it any time soon.  (I 
+already have a known bug reported on 9/25 that I haven't been able to get to.)
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_-2113882517P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9mvubK9b4h5R0IUIRAs2xAJ9gFx9Fvnld2Kp7JaUZyusroUweFQCfWPnM
+Pp78BfHf//xicipba00ru3o=
+=tDi6
+-----END PGP SIGNATURE-----
+
+--==_Exmh_-2113882517P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

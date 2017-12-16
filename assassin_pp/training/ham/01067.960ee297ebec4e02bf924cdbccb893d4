@@ -1,0 +1,44 @@
+
+--yLVHuoLXiP9kZBkt
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Feb 01, 2002 at 03:35:41PM +0100, Matthias Saou wrote:
+> Once upon a time, Harri wrote :
+>=20
+> > Title page has a login screen and I can't seem to get the apt indexes
+> > anymore. Is it just me or is something going on there?
+>=20
+> You can't get the file index from here either?
+> http://apt.nixia.no/apt/files/
+
+The requested URL /apt/files/ was not found on this server.
+
+> During the past few days, I've experienced connection problems with that
+> site from time to time, but for me right now it's working.
+
+Maybe it's temporary :-/
+
+--=20
+Win a live rat for your mother-in-law!
+
+--yLVHuoLXiP9kZBkt
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE8WqwpQF8Oi9XNck4RAmDLAJ9vdN7wlECYEdkP/MDwWnykFA97OQCfZxJc
+F7RkwD9oaZV1rg/r8p06Dmw=
+=OXj6
+-----END PGP SIGNATURE-----
+
+--yLVHuoLXiP9kZBkt--
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

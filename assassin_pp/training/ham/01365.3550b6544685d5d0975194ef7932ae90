@@ -1,0 +1,28 @@
+> Ouch ;-)  Although I'm not ready to give up razor just yet, I'd like to
+> see a pyzor check in SA.  I don't think it even needs to be written in
+> perl.  SA is actually calling razor-check and razor-report as well as
+> dccproc for those checks so it should be nothing more than duplication
+> of coding to add pyzor.
+
+I don't know from Pyzor, but I've always thought that the way services like
+Razor and DCC could be truly useful is if there were a bunch of different
+ones. We can assign them scores based on how trustworthy each one is, and
+when a message is listed in multiple services you can pretty much trust that
+it's spam.
+
+--
+Michael Moncur  mgm at starlingtech.com  http://www.starlingtech.com/
+"Mustard's no good without roast beef." --Chico Marx
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ok, time for me to pipe in.  :)
+
+Honestly, I find it odd that the spam fighting groups aren't working
+and playing well, when the common enemy is the spammers, not each
+other.  MAPS and ORBS had a battle for a while, and now DCC seems to
+have issues with Razor.  Honestly, work on your own stuff, and let's
+fix the spam problem, not pull out rulers.
+
+In a spam filter, I'm much, much more concerned about false positives
+than false negatives.  Additionally, since spam types are so varied, I
+use all available and trustworthy (to me) methods to detect it.  I
+tend to want something that has three levels (although nothing like
+this exists, yet):
+
+        red     is most certainly spam, verified by high ratings from
+                several sources, and noone says "I know this is NOT
+                spam."  I'd probably drop this into a bit-bucket, or
+                archive it for humor value.  I expect no
+                false-positives to be here.
+
+        yellow  This may be spam.  A human should decide (and report).
+
+        green   This is probably not spam.
+
+spamassassin does something useful here, but it only has the is/isn't
+switch, not is/maybe/isn't.  That said, razor is but one check in my
+spam fighting arsenal, so if it reports "doesn't match known spam"
+once in a while for well-known spam, something else will probably get
+it.
+
+- --Michael
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (NetBSD)
+Comment: See http://www.flame.org/~explorer/pgp for my keys
+
+iD8DBQE9Uxknl6Nz7kJWYWYRAqZVAKCAD46joOEZbIk+8Hx3ZGkVQ7eGZwCfRB+V
+T67XLOPP4vG99Fg2h72gHek=
+=Evue
+-----END PGP SIGNATURE-----
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

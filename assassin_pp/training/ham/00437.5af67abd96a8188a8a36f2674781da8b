@@ -1,0 +1,58 @@
+Hello Justin
+
+The simplest setup would be to connect a wireless access point to you
+hub then use a wireless pcmcia network card in your laptop.  You could
+also get some pcmcia to pci adapters or wireless pci network cards for
+your desktop machines.
+
+The access point would be configured with a network name (essid) and a
+channel number for you wireless network.  The client machine would be
+configured with the same network name, it should be able to auto detect
+the channel number.
+
+Driver support is very good, there are only a few wireless chipsets,
+and I believe that all but the newest 802.11b Plus (22Mbps) and 802.11a
+hardware has Linux drivers.
+
+If you need anymore help or info checkout the forums and irc channel at
+<URL:http://www.irishwan.org/>.
+
+Robert Fitzsimons
+robfitz@273k.net
+
+On Fri, Aug 16, 2002 at 05:39:21PM +0100, Justin MacCarthy wrote:
+> I have a small network at home,
+> 
+> Connected by 5 port hub....
+> "smoothwall" smoothwall server  	192.168.1.1
+> "shaftoe" 	Windows 2000		192.168.1.75
+> "gotodengo"	Linux				192.168.1.50
+> 
+> 
+> The family has a new pc I want to plug in, to use the ISDN in smoothwall.
+> I also have a notebook.
+> 
+> 
+> I want to plug both of these into the network using a wireless connection.
+> What's the best way to do this??? I need to plug a wireless hub into my 5
+> port hub; right? What wireless hardware is good for both Linux & windows???
+> I'm know very little about wireless...
+> 
+> Thanks
+> 
+> Justin
+> 
+> 
+> 
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

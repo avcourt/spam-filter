@@ -1,0 +1,23 @@
+> On 0020 +0100 %{!Mon, Aug 19, 2002 at 11:30:12PM +0100}, Anthony wrote:
+>> to the net. However, I didn't realise that Windows altered the hw clock
+>> as there was no mention of it in any of the docs I read. >> I still dual-boot on a regular basis and if Windows is sneakily messing
+>> with the clock, I'd be interested to know in what way it is and how it
+>> couild be stopped from doing so.
+> In my experience Windows will change the hardware clock the first time
+> you boot into it after the clocks have gone forward/back an hour.  This
+> will only happen twice a year. How to stop it, I have not checked (I
+> just switch the clock back an hour from within windows after such a
+> reboot).  Is there a GMT windows timezone?
+
+Start->Settings->Control Panel->Date/Time->Time Zone tab-> Uncheck
+"Automatically adjust clock for daylight saving change".
+
+Ciaran
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

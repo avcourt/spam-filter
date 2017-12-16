@@ -1,0 +1,80 @@
+--==_Exmh_556486408P
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Thu, 18 Jul 2002 22:29:47 +0200
+>
+> 
+> next report:
+> 
+> Every once in a while (seems to be when i have left exmh for a while 
+> and new messages has arrived to the folder, but who can tell?), it 
+> picks a message and simply wont display it. The message window goes 
+> blank and I have to click ('n' doesn't work) on another message to 
+> get around it. The log shows:
+> 
+> 22:20:48 {5395 5398-5399 5401-5435}
+> 22:20:48 Updating address "szaka@sienet.hu".
+> 22:20:48 Msg_Change {723890 microseconds per iteration}
+> 22:20:59 Msg_Pick line=5388
+> 22:20:59 Mh_SequenceUpdate lists/l-k clear cur {} public
+> 22:21:10 ****************
+> 22:21:10 Mh_SequenceUpdate lists/l-k del unseen 5400 public
+> 22:21:10 {5395 5398-5399 5401-5436}
+> 22:21:10 Changing to lists/exmh ...
+> 22:21:10 Scan_CacheUpdate {194812 microseconds per iteration}
+> 22:21:10 Exmh_CheckPoint {197763 microseconds per iteration}
+> 
+> 
+> 
+> and as far as i can tell there is a correlation between the 'clear' 
+> vs. 'del' argument to Mh_SequenceUpdate and the hangs. I have no clue 
+> what these arguments are but maybe someone has.
+
+I can tell you what the 'clear' and 'del' arguments mean:
+
+Mh_SequenceUpdate lists/l-k clear cur {} public
+	This means to clear the 'cur' sequence for lists/l-k
+
+Mh_SequenceUpdate lists/l-k del unseen 5400 public
+	This means to delete message 5400 from the 'unseen' sequence for lists/l-k
+
+Can you explain more what you were actually doing as this occurred?  This 
+doesn't appear to be background processing.  Is there significance to message 
+5400?  Is it the one that isn't displaying?
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_556486408P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9PEMYK9b4h5R0IUIRAkgqAKCG/juGj81E+/jMVknXO5QjeevG3QCeIJ4H
+kLuM98RHJCApLxh29vpP+lc=
+=q1XW
+-----END PGP SIGNATURE-----
+
+--==_Exmh_556486408P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

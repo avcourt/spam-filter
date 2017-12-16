@@ -1,0 +1,62 @@
+Please see:
+
+http://dudex.net/rpms/lincvs-0.9.90-rh7.123.spec
+
+snipet:
+># extract the ESP package archive
+>tar xvf lincvs.ss
+
+That *.ss file is really a tar file, I had to use the linCVS pre-compiled binary
+from their ESP install thingie because the one I compiled on my RH box would not run
+on as many systems. The guy said something like this: "it's an evil binary that only
+runs on one system", so I took the hint :)
+
+NOTE: I think I understand why RPM makes you go thru the whole build process: prep,
+patch, build, install, package ... there are ways to get around this, but the
+package would not be "from pristine sources" so to speak. I read that the 1st big
+change they made to RPM was to always use "pristine" sources, then have prep apply
+the packager's patches; whereas the early RPMS were already RH patched, apparently,
+not having the "pristine" sources as the author had released them.
+
+Just a guess ... ???
+
+Gary Peck (gbpeck@sbcglobal.net) wrote*:
+>
+>On Wed, Aug 14, 2002 at 10:14:18PM -0700, Jesse Keating wrote:
+>> On Wed, 14 Aug 2002 22:03:36 -0700
+>> Gary Peck <gbpeck@sbcglobal.net> wrote:
+>>
+>> #
+>> #The closest I've gotten is to use "rpmbuild -bi --short-circuit" but
+>> #that falls one step short of actually creating the rpm files. There
+>> #must be some obvious option I'm missing...
+>>
+>> By design, I don't believe there is a way to do what you are asking.
+>
+>Out of curiousity, is there any particular reason for the design? It
+>seems like it'd be an extremely useful option to have -- especially
+>when building large programs that take hours to compile.
+>
+><rant>
+>The current implementation already does EVERYTHING (including checking
+>the %files list and running find-provides and find-requires) except
+>for generating the actual rpm files. I'm sure if I were to look into
+>the source, I could write a patch that wouldn't take more than a
+>handful of lines.
+></rant>
+>
+>gary
+>
+>_______________________________________________
+>RPM-List mailing list <RPM-List@freshrpms.net>
+>
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

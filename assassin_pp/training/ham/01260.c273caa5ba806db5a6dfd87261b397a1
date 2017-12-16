@@ -1,0 +1,56 @@
+FYI..
+
+----- Original Message -----
+From: "Bill Nottingham" <notting@spamassassin.taint.org>
+To: <limbo-list@spamassassin.taint.org>
+Sent: Monday, August 19, 2002 10:40 AM
+Subject: Everybody (null)... again!
+
+
+> The (null) beta of Red Hat Linux has been updated. New in this release
+include:
+>
+> - gcc-3.2 - gcc-3.2 allows for better ABI compatibility going forward.
+>   Note that C++ apps compiled on the first beta will not run on this beta.
+> - lots-o-bugfixes
+>
+> Please report issues via Bugzilla at
+http://bugzilla.redhat.com/bugzilla/ -
+> choose 'Red Hat Public Beta' as the product, and 'null' as the version.
+>
+> To discuss (null), send mail to Limbo-list-request@redhat.com with
+> 'subscribe' in the subject line. You can leave the body empty.
+>
+> The updated (null) is at ftp.redhat.com, and the following mirrors:
+>
+>  North America:
+>    * ftp://linux.nssl.noaa.gov/pub/linux/redhat/linux/beta/null/
+>    * ftp://ftp.shuttleamerica.com/pub/mirrors/redhat/linux/beta/null/
+>      (also rsync access)
+>    * ftp://redhat.dulug.duke.edu/pub/redhat/linux/beta/null/
+>      (http and also rsync access)
+>    * ftp://mirror.hiwaay.net/redhat/redhat/linux/beta/null/
+>    * ftp://mirror.netglobalis.net/pub/redhat-beta/null/
+>      (also http access)
+>    * ftp://ftp.gtlib.gatech.edu/pub/mirros/ftp.redhat.com/linux/beta/null/
+>  South America:
+>    * ftp://ftp.tecnoera.com/
+>  Europe:
+>    * ftp://ftp.uni-bayreuth.de/pub/redhat/linux/beta/null/
+>    * ftp://alviss.et.tudelft.nl/pub/redhat/beta/null/
+>    *
+ftp://sunsite.mff.cuni.cz/MIRRORS/ftp.redhat.com/redhat/linux/beta/null/
+>    *
+ftp://ftp.cs.huji.ac.il/mirror/linux/redhat/ftp/redhat/linux/beta/null/
+>    * ftp://ftp.funet.fi/pub/mirrors/ftp.redhat.com/redhat/linux/beta/null/
+>    * ftp://ftp-stud.fht-esslingen.de/pub/redhat/linux/beta/null/
+>  Asia/Pacific:
+>    * ftp://videl.ics.hawaii.edu/mirrors/redhat/linux/beta/null/
+>    * ftp://planetmirror.com/pub/redhat/linux/beta/null/
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,50 @@
+
+--J2SCkAp4GZ/dPZZf
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Feb 01, 2002 at 04:15:52PM +0100, Matthias Saou wrote:
+> Once upon a time, Harri wrote :
+>=20
+> > > During the past few days, I've experienced connection problems with
+> > > that site from time to time, but for me right now it's working.
+> >=20
+> > Maybe it's temporary :-/
+>=20
+> If you need another apt repository with Red Hat Linux 7.2 files, there are
+> a few others. See : http://freshrpms.net/apt/
+
+I have a local one for the main and upgrades from somewhere plus my own
+at $ORKPLACE.
+
+blades@remiel% grep nixia /etc/apt/sources.list=20
+#rpm http://apt.nixia.no redhat/7.2/i386 gnomehide
+#rpm-src  http://apt.nixia.no redhat/7.2/i386 gnomehide
+
+Ah, that's it. They had newer gnome there
+
+--=20
+"When life hands you a lemon, make batteries
+=2E...then go electrocute someone."
+	-- Stevo, Scary Devil Monastery
+
+--J2SCkAp4GZ/dPZZf
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE8WrcrQF8Oi9XNck4RAur7AKDDRrfTI/kW7UZ1Vi0WXhPXycX4cwCgyd99
+PcYli3Z2sQrAZPcG5KWF4GY=
+=CkwN
+-----END PGP SIGNATURE-----
+
+--J2SCkAp4GZ/dPZZf--
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

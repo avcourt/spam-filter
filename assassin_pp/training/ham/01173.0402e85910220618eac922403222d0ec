@@ -1,0 +1,23 @@
+On Tue, Jul 30, 2002 at 12:17:21AM +0300, Ville Skyttä wrote:
+> On Fri, 2002-07-26 at 12:52, Harri Haataja wrote:
+> > Another thing I see in debian but not in my RH boxen.
+> > http://falconseye.sourceforge.net/
+> > It's a GL(?) interface to nethack :)
+> Take a look at <http://cachalot.ods.org/>, I have RPMs for RH7.3
+> there, based on (and compatible with) the NH3.x that last appeared in
+> RH7.1 powertools.  apt'able, of course :)
+
+And Text-Iconv too, nice :)
+
+Gpg key is nowhere in sight though even while vendors.list lists key
+id's.
+
+-- 
+<@zomby[tm]> tea is just like noodle soup without noodles
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

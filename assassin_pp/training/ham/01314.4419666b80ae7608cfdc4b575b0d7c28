@@ -1,0 +1,31 @@
+Hi all...
+
+I'm new to SpamAssasin so I appologies if the question has been asked
+before.
+I'm thinking of setting up SA with my Qmail(Maildir) server acting as our
+gateway.
+It currently provides inline virus scanning and ORDB open relay filtering.
+Is it possible to setup SA to act as a sitewide Spam filter ?
+Is there any documentation on setting this up ?
+The Qmail server does not house any local mail accounts, it acts as a pure
+relay for our internal mail server, I am currently relaing mail for 8
+internal domains...
+
+Suggestions would be appreciated.
+
+Regards
+Zenn
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

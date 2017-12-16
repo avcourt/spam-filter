@@ -1,0 +1,39 @@
+
+It seems that an email consisting of a single line containg a
+control-M is detected as spam. 
+
+It also seems that an email consisting of 5 blank lines is also
+treated as spam:
+
+efes:~% rm -f qq
+efes:~% perl -e 'for($i = 0; $i < 5; $i++) { print "\n"; }' >> qq
+efes:~% razor-check -d qq > /tmp/bar
+efes:~% grep 'known spam' /tmp/bar
+Aug 05 16:07:20.141526 check[31105]: [ 3] mail 1 is known spam.
+
+I'm running Razor-agents 2.14.
+
+These examples are based on real-life false-positives found by my
+users. One of the reals emails was sent by a user which wrote the 
+real contents of the email in the Subject field.
+
+I thought the newer Razor-releases avoided these problems.
+
+     -- Michael Glad, email: glad@daimi.au.dk
+
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

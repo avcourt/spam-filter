@@ -1,0 +1,34 @@
+On Thursday 01 Aug 2002 1:29 pm, Ralf Ertzinger wrote:
+> Hi.
+>
+> John Hinsley <johnhinsley@blueyonder.co.uk> wrote:
+> > So, I *do* have OpenGL, thanks all.
+>
+> And it is using your hardware.
+>
+> > Problem is that I can't find an rpm of plib which will install (or
+> > recognise that I have open GL). I guess I'll have to try and do that
+> > from source, unless anyone has any ideas?
+>
+> plib as in plib.sf.net? They do not provide RPMs, as far as I have seen
+> (and I did not look inside the tarballs). Maybe it will be best to
+> build your RPMS yourself (and maybe Matthias can share some insight
+> in building RPMS with NVIDIAs drivers installed, it seems to be a
+> little tricky to do that and get RPMS which install on systems
+> without these drivers).
+
+Please! It does seem that with 7.3 something rather extraordinary has 
+happened! And while there are rpms for plib (as in plib.sf.net), TuxRacer, 
+FlightGear and so on (for SuSE, Mandy and Connectiva, IIRC) dotted around, 
+there are none for 7.3. 
+
+Cheers
+
+John
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,45 @@
+On Sun, 21 Jul 2002 10:51:51 -0500
+Brian Fahrlander <kilroy@kamakiriad.com> wrote:
+
+> [branching the thread, here]
+> 
+>     I found another Ximian repository- I don't know if it works yet...
+> 
+> rpm     http://gstreamer.net/releases/redhat/ redhat-73-i386 deps
+> rpm-src http://gstreamer.net/releases/redhat/ redhat-73-i386 deps
+> 
+> rpm     http://gstreamer.net/releases/redhat/ redhat-73-i386 deps ximian
+> rpm-src http://gstreamer.net/releases/redhat/ redhat-73-i386 deps ximian
+> 
+> rpm     http://gstreamer.net/releases/redhat/ redhat-73-i386 deps gnomehide
+> rpm-src http://gstreamer.net/releases/redhat/ redhat-73-i386 deps gnomehide
+> 
+>     These guys are EXTREMELY apt-friendly.  Unlike most multimedia projects, they seem to prefer RPM/Apt over the older methods.  Isn't that cool?
+> 
+>     Hey- how would I have known to "apt-get install gnome-session" to kick all this off?
+> 
+> ------------------------------------------------------------------------
+> Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+> Evansville, IN                    My Voyage: http://www.CounterMoon.com
+> ICQ  5119262
+> ------------------------------------------------------------------------
+> I don't want to hear news from Isreal until the news contains the words
+> "Bullet", "Brain", and "Arafat".
+
+i took a look into the repository it "just" contains gstreamer and his dependecies
+but thats nice for people who use it though :)
+
+thanks,
+che
+
+personally i am capped to 16 kb/s upstream only :\ if i just had like 10 to 20 times of that i would run a repository for sure. i guess alot of people would love to even get daily builds (yes i know i deserve to be eaten for that idea because it would need alot of bandwidth) but well would still be nice :).
+ 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

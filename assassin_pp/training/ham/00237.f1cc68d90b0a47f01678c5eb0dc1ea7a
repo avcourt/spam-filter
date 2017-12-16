@@ -1,0 +1,21 @@
+>===== Original Message From deedsmis@aculink.net, ilug@linux.ie =====
+>"Hunt, Bryan" stated the following:
+>>
+>> choose the repair option when installing windows nt/2000/whatever
+>
+>What is the "repair option"?
+>
+If u choose Setup NT from the installation CD it will reboot your system
+and give the option of repairing an existing installation when it reboots.
+I did this the other night, with the check MBR option, but it didn't 
+overwrite the MBR like it should (apparently). Either my disk is completely
+shagged or i'm missing something.
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

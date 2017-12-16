@@ -1,0 +1,52 @@
+Hi Thor,
+
+[Still trying to catch my breath] :-)
+
+I guess there's no easy way to avoid this. In order to proactively
+protect endusers they'll need to put such code (or part of it) into
+their defs. Since antivirus products still gets smarter and smarter and
+heuristics are getting better and better the odds aginst not running
+into false positives are poor. Some products will woe plenty of these
+some are better to avoid the madness (!). I'll leave you to do the test.
+Consider that corporate and endusers are most likely using Microsoft
+software without updating as they should. AV-software is now trying to
+protect these poor souls adding proxy functionality to catch e.g.
+malicious content in HTML based e-mails and for a good reason. Looking
+at http://www.pivx.com/larholm/unpatched/ says it all!  ;-)
+
+Med venlig hilsen // Kind regards
+
+Peter Kruse
+Security- and Virusanalyst
+Telia @ Security
+http://www.teliainternet.dk
+Member of AVIEN and FIRST
+
+> -----Oprindelig meddelelse-----
+> Fra: Thor Larholm [mailto:Thor@jubii.dk] 
+> Sendt: 5. august 2002 10:13
+> Til: 'nick@virus-l.demon.co.uk'; FOCUS-VIRUS@SECURITYFOCUS.COM
+> Emne: RE: More content filtering woes
+> 
+> 
+> What I find even more annoying is the horde of false 
+> positives that antivirus software constantly yaps one about 
+> each time one sends some demonstratory POC to a mailinglist 
+> only to have several witless antivirus vendors add ones POC 
+> to their virus library, yielding tons of "Quarantined" 
+> replies on a daily basis without any added level of security 
+> to the enduser whatsoever since any reallife exploitation 
+> would yield a completely different signature, thus defeating 
+> the purpose of adding ones signature.
+> 
+> *phew* That could have used some punctuation. :)
+> 
+> 
+> 
+> 
+> Regards
+> Thor Larholm
+> Jubii A/S - Internet Programmer
+> 
+
+

@@ -1,0 +1,24 @@
+[yes, I know I'm replying to myself!]
+
+>     Your page has a typo;
+> 
+> http://utelsystems.dyndns.org lists:
+>     rpm http://utelsystems.dyndns.org/apt redhat testingrh73
+>     rpm-src http://utelsystems.dyndns.org/apt redhat testing73  <--
+> 
+>     This is why I'm so stubborn about using cut-and-paste; not only is it easy, it's typo-free.  :)
+> 
+> Wouldn't it be nice if there was a way to manage these automagically?  Some central site to make them available to the rest of the world, every time there's a "apt-get update"?  :)
+
+it sure would.
+>Also- I noticed this repo has about an 8K bandwidth.
+I know, i know. Its an ADSL connection. Should habe 128K ;-(
+Feel free to give me access to an web/ftp server with big pipes..
+
+-
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

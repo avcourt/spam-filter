@@ -1,0 +1,18 @@
+Yes, I know, dreadful subject. However, because of customer inistence we
+must deploy one project on W2K. This will thus be a WAMP project rather than
+a LAMP project. Of course as a highly skilled *ix person I can handle these
+Windows toys :-) but can anyone suggest any good educational resources for
+using Apache, PHP, Perl and MySQL together on W2K. Anyone had to do the same
+and found any particular nasty gotchas (yes, I know about the running
+Microsoft software one).
+
+
+
+Niall
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+
+

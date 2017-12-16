@@ -1,0 +1,20 @@
+On Wed, Aug 14, 2002 at 10:59:22AM -0400, Thomas J. Baker wrote:
+> Has anyone had any luck with the gstreamer repository? I'm using RH 7.3
+> and Ximian Gnome 2 snaps and the gstreamer stuff just doesn't work at
+> all. Rhythmbox crashes on startup, gst-player can't play a simple mpg
+> file, etc.
+
+I've been using the gstreamer repository with Rawhide Gnome 2 for the
+last month or so with no problems. Even the new rhythmbox works (if
+you can call taking 5 minutes to load my mp3 directory "working").
+
+It might be something with Ximian's Gnome 2 snaps. AFAIK, they're 
+pretty much straight out of CVS and hence a lot more experimental than 
+some of the other Gnome 2 packages out there.
+
+gary
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

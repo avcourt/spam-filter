@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+de'i Friday 02 August 2002 18:01 la Marc Perkel cusku di'e
+> Hi everyone,
+>
+> I'm the systems admin for the Electronic Frontier Foundation and I'm using
+> razor running under spam assassin there and one my own personal server.
+> Generally it works fine with near 0 false positives - except - that almost
+> all the false positives I've seen are on messages that originated at EFF.
+>
+> So - I am wondering why RAZOR is catching EFF email and how is this
+> happening. Below is an example of what I'm talking about.
+
+I added code to my procmailrc (on the other account) so that anything that 
+comes on Bugtraq and is in Razor is revoked. Bugtraq is moderated, so spam 
+doesn't get through it. The recipe revoked a message about an hour after I 
+added it.
+
+:0 Wc
+| razor-check
+
+:0 a
+{
+   :0
+   * !^(some Bugtraq-specific header)
+   !fesmri@ixazon.dynip.com
+
+   :0 E
+   | razor-revoke
+}
+
+cmeclax
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9SxOd3/k1hdmG9jMRAqz2AJ4yYsmri9qP3l8c61T9SFL5yQ1y6gCeJA71
+CretKENIo9OyI7HgLm112jI=
+=jodf
+-----END PGP SIGNATURE-----
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

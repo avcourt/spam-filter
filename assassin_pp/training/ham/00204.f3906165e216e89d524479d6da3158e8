@@ -1,0 +1,27 @@
+
+
+On Thu, 1 Aug 2002, John P. Looney wrote:
+
+>  I've found a decrepit raq3 that I'm going to resurrect, as soon as I work
+> out what's up with the console.
+> 
+>  I'm using 115200 8n1 with minicom, and I'm getting wierd stuff like:
+
+Should it be 38K4 - a fairly common baudrate for serial port
+connections? Though if you are getting this much, the baudrate
+may be right. It looks like high ASCII so it may also be worth
+playing with the tty type (ANSI/VT etc).
+
+>  So it looks like some sort of setting mismatch. Various places on the web
+> say that cobalts are setup with 115200 8n1 serial ports, but someone could
+> have changed it on this particular box.
+
+Regards...jmcc
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

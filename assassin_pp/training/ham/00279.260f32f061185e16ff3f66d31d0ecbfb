@@ -1,0 +1,29 @@
+JPL suggested:
+>  Recursion is only truely useful if you have an infinite stack. People
+> that think they have an infinite stack shouldn't be let near a compiler.
+
+Well, when studying engineering the rule of thumb was that infinity was 10
+times bigger then the most you could expect to use.
+
+Therefore I believe in infinite stack.
+
+But I do not feel I am a compiler risk either. So where does this leave me?
+
+<grin>
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

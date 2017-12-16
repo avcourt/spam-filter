@@ -1,0 +1,80 @@
+
+
+> -----Original Message-----
+> From: Ralf Ertzinger [mailto:ralf@camperquake.de]
+> Sent: Thursday, August 15, 2002 2:53 PM
+> To: rpm-zzzlist@freshrpms.net
+> Subject: Re: Documentation about built-in RPM macros?
+> 
+> 
+> Hi.
+> 
+> Dave Cridland <dave@cridland.net> wrote:
+> 
+> > > recommends *against* using '%configure' ("We will try to 
+> support users
+> > > who accidentally type the leading % but this should not be relied
+> > > upon."), and yet
+> 
+> [snip]
+> 
+> > They're just suggesting people use "./configure" instead.
+> 
+> No, they do not (what would be the use of that, anyway?). 
+> They say that
+> they will _try_ to eval macros even if the user forgot to pass the
+> leading '%', but that this feature should not be relied upon.
+> 
+
+Hmm.  1. The quote is not suggesting that people use './configure'.
+2. The quote is not saying that rpm will _try_ to eval macros even
+if the user forgot to pass the leading '%'.  It is saying the opposite:
+rpm will try to support users who "forgot" to _leave off_ the leading
+'%'.  That is what the documentation _says_, but rpm does not follow
+the documentation.  If you leave off the '%', then rpm will not eval
+the macro, at least for rpm 4.0.4.
+
+Confused?
+
+Anyway, back to my original problem: what about documentation for
+the macros '%post', '%postun', and '%files'?  Here's some of what
+I found "documented" in the the CHANGES file that 'rpm' includes:
+
+Line 46:
+	- macro for %files, always include %defattr(), redhat config
+only.
+
+Line 49:
+	- bail on %files macro.
+
+Hmm.  So, there is no %files macro?
+
+Line 172-174:
+	- add "rpmlib(ScriptletInterpreterArgs)" to track
+	    %post -p "/sbin/ldconfig -n /usr/lib"
+	  incompatibilities.
+
+I'm unable to find a corresponding description for %postun, but it
+appears to work just the same.  The important things to remember are:
+
+  1. Don't forget the double-quotes around the -p argument string.  If
+     you leave them off, you'll get the cryptic error message:
+
+     error: line #: Package does not exist: %post -p /sbin/ldconfig -n
+/usr/lib
+
+  2. This only works with RPM 4.0.3 or later.
+
+> -- 
+> On the first day of Christmas my true love sent to me
+>        A badly configured newsreader
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+> 
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

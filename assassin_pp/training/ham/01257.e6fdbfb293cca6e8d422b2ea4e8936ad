@@ -1,0 +1,26 @@
+This seems to be a good argument for the odd number prerelease, even number 
+stables.
+
+So instead of a 0.61pre2 pre3,  and a 0.61final,  you'd stick with 0.61 
+with different releases, and a 0.62.
+
+0.61-1, 0.61-2, 0.62.  Would that that?
+
+--On Monday, August 19, 2002 17:25:04 +0200 Matthias Saou 
+<matthias@egwn.net> wrote:
+
+> Take for instance xmame : I've been packaging 0.61 pre-releases as
+> "0.61-fr0.x" since the entire source has only "0.61" tags everywhere, no
+> preversion tags whatsoever.
+
+
+
+                                    -- \m/ --
+  "...if I seem super human I have been misunderstood." (c) Dream Theater
+         mark@talios.com - ICQ: 1934853 JID: talios@myjabber.net
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

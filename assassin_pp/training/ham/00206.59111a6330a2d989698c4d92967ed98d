@@ -1,0 +1,36 @@
+
+> quickie for shell scripters:
+> How do I find out the time a file was created at?
+ 
+ There is no canonical test, and the information is not necessarily
+ available. If you check out how struct stat is defined on your system,
+ you'll find that only
+
+     time_t   st_atime;    /* Time of last access */
+     time_t   st_mtime;    /* Time of last data modification */
+     time_t   st_ctime;    /* Time of last file status change */
+                           /* Times measured in seconds since */
+                           /* 00:00:00 UTC, Jan. 1, 1970 */
+
+ are available. File status change = i-node status change, it includes
+ creation, mode change, ownership change etc., so this is what you want
+ only if the file status wasn't changed since creation.
+
+ This information is also shown by ls -lc, but parsing ls' output requires
+ a bit of effort. I'd rather recommend to write a short C program to access
+ the file status directly, and output the ctime directly (seconds since
+ the epoch, i.e. perfect for numerical comparison).
+
+ (Another way is to use GNU find -printf with a custom format:
+  ...
+            %c   File's last  status  change  time  in  the  format
+               returned by the C `ctime' function.
+ ...)
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

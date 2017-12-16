@@ -1,0 +1,34 @@
+Every once in a while, I get notifications in my root mailbox that my
+personal mail is being rejected.  The message is 'No Catalogue Servers
+available at this time.'  Since I use razor V1 through Mail::Audit
+(using is_spam), I tried several ways to try to trap this error and
+allow my mail to be delivered on these occassions but nothing seemed
+to work.
+
+I started digging through the code and found several uses of exit
+inside the razor code.  This is a very anti-social thing for a module
+to do.  It takes away my option to bypass the spam check and deliver
+the mail anyway.  The razor modules should signal errors through die
+or warn.  razor-check could catch these and, knowing it's being called
+during mail delivery, issue an appropriate message and exit status for
+the MTA.  The razor modules don't know who's calling them and
+shouldn't make this decision.  I'm wondering how much legitimate mail
+I'm missing because of this.
+
+I certainly hope this is being addressed in the new version.
+
+-- 
+tom_p
+pfau@nbpfaus.net -- http://www.nbpfaus.net/~pfau/
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

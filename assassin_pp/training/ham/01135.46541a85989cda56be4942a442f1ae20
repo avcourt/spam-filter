@@ -1,0 +1,21 @@
+On Fri, 19 Jul 2002 18:40:52 +0200
+Matthias Saou <matthias@egwn.net> wrote:
+
+> I'll put up the next version as soon as it's out hoping it'll fix all
+> current issues!
+Hi, Matthias,
+gentoo 0.11.30 is out now and the 'copy nested directory' bug is fixed,
+see ChangeLog on
+
+http://sourceforge.net/project/shownotes.php?group_id=32880&release_id=100766
+
+
+-- 
+regards from Germany
+                   Matthias
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

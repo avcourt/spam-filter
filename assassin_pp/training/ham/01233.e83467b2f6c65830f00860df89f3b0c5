@@ -1,0 +1,49 @@
+
+--=-ITC4wxYrfSWQCmQFalKh
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, 2002-10-03 at 08:16, Mark Derricutt wrote:
+> Anyone know where one could get rpms for alot of the python libraries for=
+=20
+> 2.2?
+>=20
+> Its darn annoying the way RH ship python 1.5.2 and python 2.2 (as python2=
+)=20
+> and libs that only work with one or the other :(
+>=20
+> esp. the pgdb and xml modules.
+>=20
+> Anyone know why Red Hat insist on sticking with python 1.5.2?
+>
+
+they are on python 2.2 for 8.0 - but they don't like to break
+compatibility during major releases.
+
+therefore: 6.X was 1.5.2 b/c that was current
+7.x was 1.5.2 b/c that was current when 7.0 was released.
+
+-sv
+
+
+--=-ITC4wxYrfSWQCmQFalKh
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQA9nEQh1Aj3x2mIbMcRAg/FAJ9MNwAv4hzpR4gjkMGGtGUjFKidQQCgk0ZE
+DlQVAibjHkM4H9ZBYzs0xb4=
+=8gIA
+-----END PGP SIGNATURE-----
+
+--=-ITC4wxYrfSWQCmQFalKh--
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

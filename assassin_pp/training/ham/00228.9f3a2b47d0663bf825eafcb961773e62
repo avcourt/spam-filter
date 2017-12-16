@@ -1,0 +1,32 @@
+Wynne, Conor's [conor_wynne@maxtor.com] 16 lines of wisdom included:
+> Hi ladies,
+> 
+> I setup a cron job to do a full backup to tape drive there last night, but
+> I'm just wondering how I can verify that it actually ran? 
+> I suppose that a mail will be sent to root as I ran crontab -e as root. Is
+> that correct or should I be looking elsewhere?
+> 
+> Thanks to everyone who replies in advance. 
+
+
+Where does cron log to? (check /etc/syslog.conf) 
+
+Usually it's something like /var/log/cron.log or /var/log/cron 
+
+Anyways have a look in the logs, make sure your backup ran (so long
+as there weren't any errors).
+
+Typically if there's any output from the commands you've run,
+they're mailed to you.
+
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

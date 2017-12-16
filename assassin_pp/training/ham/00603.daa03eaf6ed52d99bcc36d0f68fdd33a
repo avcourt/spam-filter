@@ -1,0 +1,31 @@
+Vipul, can I ask questions about SpamNet here?
+
+I hope so, here goes.. simple question.  How do you define
+username/passwords in spamnet?  I don't see any fields for this option, so
+I'm assuming when someone connects with SpamNet for the first time, they're
+given a unique ID that they keep until they change to a new Outlook client?
+
+It would be nice if you could specify which username/password to use.  I'd
+like to share my trust account between my work(outlook) and my personal(mutt)
+email accounts.
+
+> > Perhaps a feature can be added to razor-report, so that it checks whether a
+> > message is spam before it submits it.  If it is spam, then don't send the
+> > body, 4 signatures, etc, just up the "rating" for that individual spam.
+> 
+> Yep, that how razor-agents currently work.
+> 
+> cheers,
+> vipul.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

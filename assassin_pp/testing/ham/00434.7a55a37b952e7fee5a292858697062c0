@@ -1,0 +1,45 @@
+
+As far as I know, there are ide add-in cards that support hot-plugging of
+drives, not too sure if this feature is availabe on the cheaper
+promise/highpoint controllers, but it is definitely available on the
+higher-end (true ide-raid) cards.
+
+Cathal.
+
+On Fri, 16 Aug 2002, Ciaran Johnston wrote:
+
+> Vincent Cunniffe said:
+> > I run several co-located servers, and the solution I have adopted is
+> > IDE drives. They're cheap, fast, and you don't have to keep buying
+> > media for them. Combine it with a removable HD caddy from Peats or
+> > Maplins, and you have a complete onsite/offsite backup solution with 4
+> > entire generations of data for about ¤250 (2 * 80GB/5400 drives and a
+> > caddy for the server).
+> >
+> > You do need 60 seconds of downtime to replace the drive, but that's
+> > pretty trivial if done once per month.
+>
+> Hmmm... this does sound interesting. I think it may be the way to go... I'd
+> still be interested in hearing people's opinions on the tape drives I
+> mentioned, though, esp. wrt. this solution. I know knocking a drive around
+> doesn't do it any good.
+>
+> /Ciaran.
+>
+>
+>
+>
+>
+>
+
+-- 
+Cathal Ferris.			pio@skynet.ie
++353 87 9852077			www.csn.ul.ie/~pio
+---
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

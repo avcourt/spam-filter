@@ -1,0 +1,19 @@
+On Thu, 2002-08-08 at 13:10, Padraig Brady wrote:
+> Yikes, hope he's not serious!
+
+The impression I get from reading lkml the odd time is
+that IDE has gone downhill since Andre Hedrick was 
+effectively removed as maintainer. Martin Dalecki seems
+to have been unable to further development without 
+much breakage. However, this is part of the fun of
+the development kernel. Alan and others are annoyed
+because they can't do any development themselves while
+IDE is broken. Hopefully the 2.4 IDE port should help.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

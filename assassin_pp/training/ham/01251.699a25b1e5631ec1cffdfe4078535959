@@ -1,0 +1,17 @@
+Halloechen!
+
+If I create an RPM according to one of the how-to's with having
+Red Hat in mind, how big are my chances that it will also work
+for the SuSE distribution, or others?  (I don't know how many
+base on the RPM system.)
+
+Or what must I pay attention to when creating an RPM that should
+work with the big distributions?
+
+Tschoe,
+Torsten.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

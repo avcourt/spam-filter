@@ -1,0 +1,18 @@
+Hi,
+This is driving me nuts. I'm trying to run a once off mirror of a
+website using wget. It's ignoring images and not recursing links (even
+though I've specified the --mirror flag).
+
+wget --mirror https://username:password@foobar.com/a/b/a/index.html
+
+Any ideas or alternative tools?
+
+ct
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

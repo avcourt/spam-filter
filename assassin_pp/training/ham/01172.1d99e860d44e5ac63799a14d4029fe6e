@@ -1,0 +1,21 @@
+Hi.
+
+"Kevin Worthington" <kworthington@linuxmail.org> wrote:
+
+> into /home/dude/redhat etc. by running
+> #rpm -ivh foo.src.rpm
+
+Do this:
+echo "%_topdir /home/dude/redhat" >> /home/dude/.rpmmacros
+
+and make sure the directory structure (RPMS, SOURCES, SPECS, SRPMS, BUILD)
+is there.
+
+-- 
+R!
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

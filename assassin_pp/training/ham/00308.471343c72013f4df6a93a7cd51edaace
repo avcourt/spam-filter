@@ -1,0 +1,20 @@
+On Fri, Aug 09, 2002 at 09:26:33AM +0100, Padraig Brady mentioned:
+> ext2 can mount an ext3 partition, but there are
+> probably small changes required (to the BIOS)
+> to support this?
+
+ Most likely. But, seeing as I've flashed the thing with the most
+up-to-date BIOS I could get (with all the screaming 'experimental' stuff
+you usually see), and no luck.
+
+ Next trick is to format /boot as ext2, and try again.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

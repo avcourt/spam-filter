@@ -1,0 +1,40 @@
+On Mon, 22 Jul 2002 the voices made Olivier Nicole write:
+
+> >How would forgeries (e.g. viruses) be detected?  Would there be an
+> >"oops-I-didn't-mean-to-submit-that" option somehow?
+>
+> Real viruses are filtered before they reach any mailbox for delivery.
+>
+> Tose two addresses could be accessible only for internal mail.
+>
+> And as a user is using this mechanism to build his own database of
+> spam/non-spam, that's his problem is he sumbit something wrong.
+>
+> BTW, same forgery or wrong submission problems would exist if each
+> user had his own set of 2 addresses.
+
+ Not really, because you could use [user]-[action]-[passw]@domain.tld; instead
+of letting 100'000 other users mess with your settings; not to mention virii
+that randomly pick sendernames from addressbooks and the future virii that
+target these "not spam"-functions...
+
+
+	/Tony
+-- 
+# Per scientiam ad libertatem! // Through knowledge towards freedom! #
+# Genom kunskap mot frihet! =*= (c) 1999-2002 tony@svanstrom.com =*= #
+
+    perl -e'print$_{$_} for sort%_=`lynx -source svanstrom.com/t`'
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

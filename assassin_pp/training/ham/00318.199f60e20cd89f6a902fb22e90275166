@@ -1,0 +1,32 @@
+On Thu, 8 Aug 2002, kevin lyda wrote:
+
+> i'm certain they already do strip after the +.  however, they'll
+> have to respond to a confirm message when they send to my raw
+> address.  and responding to a confirm message requires spammers to
+> provide a real email address (which i can then blacklist - i've
+> mapped y in mutt to whitelist; Y to blacklist) and effectively send
+> the spam to each individual (which makes spamming more expensive
+> bandwidthwise for the spammer).
+
+unfortunately, often spammers provide real return addresses - just not 
+their own.
+
+so if everyone used tmda, these poor unfortunates would receive
+millions of tmda confirm messages, in addition to the hundred thousand
+'undeliverable' messages that they already get..
+
+> kevin
+
+regards,
+-- 
+Paul Jakma	Sys Admin	Alphyra
+	paulj@alphyra.ie
+Warning: /never/ send email to spam@dishone.st or trap@dishone.st
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

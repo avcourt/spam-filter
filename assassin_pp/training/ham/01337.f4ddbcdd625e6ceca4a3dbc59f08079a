@@ -1,0 +1,36 @@
+Update of /cvsroot/spamassassin/spamassassin/lib/Mail/SpamAssassin
+In directory usw-pr-cvs1:/tmp/cvs-serv13563/lib/Mail/SpamAssassin
+
+Modified Files:
+	Conf.pm 
+Log Message:
+restricted version_tag
+
+Index: Conf.pm
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/lib/Mail/SpamAssassin/Conf.pm,v
+retrieving revision 1.92
+retrieving revision 1.93
+diff -b -w -u -d -r1.92 -r1.93
+--- Conf.pm	21 Aug 2002 16:01:08 -0000	1.92
++++ Conf.pm	21 Aug 2002 16:27:06 -0000	1.93
+@@ -263,6 +263,7 @@
+ 
+     if(/^version[-_]tag\s+(.*)$/) {
+       my $tag = lc($1);
++      $tag =~ tr/a-z0-9./_/c;
+       foreach (@Mail::SpamAssassin::EXTRA_VERSION) {
+         if($_ eq $tag) {
+           $tag = undef;
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

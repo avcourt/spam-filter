@@ -1,0 +1,120 @@
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0014_01C23C69.66A70650
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+I use a perl script that disables Razor for thirty minutes any time it =
+times out.  Not a true fix, but a workaround.
+
+Fox
+  ----- Original Message -----=20
+  From: Daniel Higgins=20
+  To: razor-users@example.sourceforge.net=20
+  Sent: Monday, August 05, 2002 9:49 AM
+  Subject: [Razor-users] Reliability of the razor servers?
+
+
+  ok so after waiting all this time before upgrading to V2 (just did it =
+this morning because V1 isn't effective at all anymore) i ran into =
+problems with reliability of the servers. it took me about half an hour =
+to do a razor-admin -create and razor-admin -register constantly =
+retrying because it kept timing out
+
+  connect1: nextserver: Could not get valid info from Discovery Servers
+
+  is it a problem just now or is that standard issue? up until now i've =
+been advocating razor to all, but i it starts to have reliability issues =
+we might as well look for another way to catch the spam, we can't afford =
+to have one anti spam trick, no matter how effective, bog down the =
+entire mail server
+
+  --
+  Daniel Higgins
+  Netcommunications Inc.
+
+------=_NextPart_000_0014_01C23C69.66A70650
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2600.0" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2>I use a perl script that disables Razor =
+for thirty=20
+minutes any time it times out.&nbsp; Not a true fix, but a=20
+workaround.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>Fox</FONT></DIV>
+<BLOCKQUOTE dir=3Dltr=20
+style=3D"PADDING-RIGHT: 0px; PADDING-LEFT: 5px; MARGIN-LEFT: 5px; =
+BORDER-LEFT: #000000 2px solid; MARGIN-RIGHT: 0px">
+  <DIV style=3D"FONT: 10pt arial">----- Original Message ----- </DIV>
+  <DIV=20
+  style=3D"BACKGROUND: #e4e4e4; FONT: 10pt arial; font-color: =
+black"><B>From:</B>=20
+  <A title=3Ddhiggins@netc.net href=3D"mailto:dhiggins@netc.net">Daniel =
+Higgins</A>=20
+  </DIV>
+  <DIV style=3D"FONT: 10pt arial"><B>To:</B> <A=20
+  title=3Drazor-users@lists.sourceforge.net=20
+  =
+href=3D"mailto:razor-users@lists.sourceforge.net">razor-users@lists.sourc=
+eforge.net</A>=20
+  </DIV>
+  <DIV style=3D"FONT: 10pt arial"><B>Sent:</B> Monday, August 05, 2002 =
+9:49=20
+  AM</DIV>
+  <DIV style=3D"FONT: 10pt arial"><B>Subject:</B> [Razor-users] =
+Reliability of the=20
+  razor servers?</DIV>
+  <DIV><BR></DIV>
+  <DIV><FONT face=3DArial size=3D2>ok so after waiting all this time =
+before=20
+  upgrading to V2 (just did it this morning because V1 isn't effective =
+at all=20
+  anymore) i ran into problems with reliability of the servers. it took =
+me about=20
+  half an hour to do a razor-admin -create and razor-admin -register =
+constantly=20
+  retrying because it kept timing out</FONT></DIV>
+  <DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+  <DIV><FONT face=3DArial size=3D2>connect1: nextserver: Could not get =
+valid info=20
+  from Discovery Servers</FONT></DIV>
+  <DIV>&nbsp;</DIV>
+  <DIV><FONT face=3DArial size=3D2>is it a problem just now or is that =
+standard=20
+  issue? up until now i've been advocating razor to all, but i it starts =
+to have=20
+  reliability issues we might as well look for another way to catch the =
+spam, we=20
+  can't afford to have one anti spam trick, no matter how effective, bog =
+down=20
+  the entire mail server</FONT></DIV>
+  <DIV>&nbsp;</DIV>
+  <DIV><FONT face=3DArial size=3D2>--<BR>Daniel =
+Higgins<BR>Netcommunications=20
+  Inc.</FONT></DIV></BLOCKQUOTE></BODY></HTML>
+
+------=_NextPart_000_0014_01C23C69.66A70650--
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

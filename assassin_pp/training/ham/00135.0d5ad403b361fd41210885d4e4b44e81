@@ -1,0 +1,58 @@
+ok, so i was also learning about css this weekend (thanks to the fine
+folks in irc.linux.ie, #linux!).  i came up with the following in
+my travels.  first, two style sheets:
+
+http://ie.suberic.net/css/style.css:
+    body {
+	color : black;
+	background-color : white;
+    }
+
+http://ie.suberic.net/css/style-windows.css:
+    body {
+	background-image : url("http://ie.suberic.net/images/use.linux.gif");
+	background-repeat: repeat;
+    }
+
+then i include the css in an html page like so:
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+    <html>
+    <head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>blah</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+    </head>
+
+now i use mod_rewrite to rewrite requests for /css/style.css to
+/css/style-windows.css if the browser is on windows by putting this
+in httpd.conf:
+
+    RewriteEngine   on
+    #RewriteLog     "/tmp/foo.log"  # use this for debugging
+    #RewriteLogLevel        3
+    RewriteCond     %{HTTP_USER_AGENT}      Windows
+    RewriteRule     ^/css/style\.css$       /css/style-windows.css
+
+oh, and of course images/use.linux.gif is an animated gif that is
+transparent for 55 seconds and then displays "use linux!" in a large
+blue font for 5 seconds.  :)
+
+and the way to create animated gifs is to put each frame in a layer in
+the gimp.  pick any name for each layer, but make sure each layer ends
+with (XXXms) where XXX is the number of milliseconds the frame displays.
+then use the animation tool to export the animation.
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

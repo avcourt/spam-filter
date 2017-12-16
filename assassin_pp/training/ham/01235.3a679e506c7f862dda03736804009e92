@@ -1,0 +1,38 @@
+Once upon a time, Ralf wrote :
+
+> Skipping all RPM build parts except for the actual packing is not
+> possible
+
+Actually it is (sort of).
+To answer partly the original question, this might have been useful once
+the %files error was corrected :
+
+rpmbuild -bi --short-circuit <specfile>
+
+This will skip all the way to the %install and start from there. Of course,
+you need to have already done everything else before, and this will _not_
+produce any rpm files, but will at least tell you if everything is now able
+to finish successfully.
+
+Sure, it's not perfect since if the %files error was actually because
+entries were missing you'll notice it only once the package is really
+installed. But for multiple typos in the %files section (like when you're
+writing a spec file after 2AM ;-)) it can come in handy :-)
+
+It's also very useful if you need to override some Makefile variables
+during install, when the simple cases like "%makeinstall" or "make install
+DESTDIR=%{buildroot}" don't work. It keeps you from redoing all the
+unpacking and building processes.
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

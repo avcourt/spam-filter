@@ -1,0 +1,78 @@
+--==_Exmh_2112058634P
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Scott Lipcon <slipcon@mercea.net>
+> Date:  Mon, 23 Sep 2002 10:54:19 -0400
+>
+> Oops - turns out i wasn't careful installing it, so the exmh(library)
+> variable was pointing at my old installation.  I'm surprised it worked
+> as well as it did.
+> 
+> In any case, I removed the old library directory, and edited exmh,
+> exmh-bg, exmh-strip, etc to point at the right one.  Now I'm getting
+> another traceback on startup:
+> 
+> can't read "mhPriv(pubseq,family,cur)": no such variable
+>     while executing
+> "MhSeq $folder $seq add $mhPriv(pubseq,$folder,$seq) [MhSeqExpand
+> $folder $msgids"
+>     (procedure "MhReadSeqs" line 73)
+>     invoked from within
+> "MhReadSeqs $folder seqs"
+>     (procedure "Mh_Sequences" line 2)
+>     invoked from within
+> "Mh_Sequences $folder"
+>     (procedure "Flist_UnseenUpdate" line 4)
+>     invoked from within
+> "Flist_UnseenUpdate $folder"
+>     (procedure "FolderChange" line 51)
+>     invoked from within
+> "FolderChange family {Msg_Show cur}"
+>     invoked from within
+> "time [list  FolderChange $folder $msgShowProc"
+>     (procedure "Folder_Change" line 3)
+>     invoked from within
+> "Folder_Change $exmh(folder)"
+>     (procedure "Exmh" line 101)
+>     invoked from within
+> "Exmh"
+>     ("after" script)
+> 
+> 
+> +family is the folder I was in when I quit exmh.
+
+That shouldn't have been able to happen, but I've just made the code slightly 
+more bullet proof.
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_2112058634P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9jy+1K9b4h5R0IUIRAjO9AJ0TO8a3237+K6/EJhI9eCv/E1K4OQCeIN4j
+nvTrcJ0dWiRGVWA9RZz7Kqk=
+=WTaV
+-----END PGP SIGNATURE-----
+
+--==_Exmh_2112058634P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

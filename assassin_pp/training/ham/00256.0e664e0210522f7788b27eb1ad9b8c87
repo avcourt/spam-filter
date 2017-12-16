@@ -1,0 +1,28 @@
+On Sun, Aug 04, 2002 at 06:55:49PM +0100, cout@eircom.net wrote:
+> You need to run the dos setup program for the 3c509 and turn off plug 'n' play in the card's firmware I think you will find.
+
+or you could:
+
+    a) make your lines less then 80 chars.
+    b) not top-post.
+    c) visit http://www.scyld.com/diag/ and turn off plug and play
+       from a linux setup program.
+    d) all of the above.
+    moron) do none of the above.
+
+just a thought...
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

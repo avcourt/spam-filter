@@ -1,0 +1,25 @@
+> 
+> The workaround is to pass an extra argument to configure as follows :
+> 
+> %configure --program-prefix=%{?_program_prefix:%{_program_prefix}}
+> 
+
+This works when you are defining a switch that %configure
+does not already define, but how can we override an
+existing switch?  For example,
+
+  prefix: /usr/local
+
+  %configure --prefix=%{?_prefix:%{prefix}}
+
+would be desirable for making a .rpm package relocatable,
+but this doesn't work.  'configure' receives two switches,
+the default '--prefix=/usr' and the (attempted) override
+'--prefix=/usr/local', but it only recognizes the first one.
+
+---
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

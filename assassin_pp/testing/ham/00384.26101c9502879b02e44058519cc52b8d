@@ -1,0 +1,65 @@
+Kate P Looney wrote:
+> Vendors wrote their own wierd-ass installers & config tools to lock
+> people to their OS, they added all sorts of functionality that was not
+> availible to other OSes to make themselves different from the competition
+
+I think the words you are looking for are "competitive advantage" or
+"differentiation".
+
+Since most Linux vendors are businesses, they need to make money to
+survive[1]. To make money they need to sell products. To ensure they sell
+their product, they must provide something that other vendors do not.
+
+The down side is that this produces many variations of the same product. The
+benefit of open source is that there is a common standard which everyone can
+share. (The up side is that the competition drives the different
+organisations to constantly improve their product offering[2].)
+
+So unlike SunOS vs AIX vs HPUX vs Tru64, where the API's and available
+functionality were often starkly different, Linux distributions are mostly
+the same.
+
+While I may have to look in /var/named on Red Hat, and /etc/bind on Debian,
+the binaries are basically the same, as are the man pages. In most cases,
+doing a "man named" will reveal the compiled location of the config files.
+So long as this is understood, it is easy enough to administer most Linux
+distributions.
+
+I expect that as companies and public sector organisations begin to
+understand the open source paradigm, you will find even more distributions
+appearing. The reason I believe this is that deriving a new distribution
+from, say, Debian requires comparatively little effort. I would see this
+requiring slightly more effort than the amount of time many enterprise
+admins spend trying to customise the desktops, screen savers and software
+distribution mechanisms of their own organisations.
+
+IMHO, as always...
+
+
+- Matthew
+
+[1] Depending on your world view, this may be rephrased as "they need to
+make oodles of profits and screw the little man to survive." This discussion
+is beyond the scope of this list. :)
+
+[2] The often overlooked problem with competition is that it weakens the
+"combatants", leaving the field open for a less powerful force to take over
+and entrench its position (in this case I would be referring to Microsoft).
+However, I do not believe this will effect the Linux movement as all the
+vendors are obliged to work together to a great degree, thanks to the GPL.
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

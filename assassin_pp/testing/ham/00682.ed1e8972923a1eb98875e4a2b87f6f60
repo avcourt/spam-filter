@@ -1,0 +1,60 @@
+
+Is there a relatively clean way to dynamically build comp files based on
+the path of the current folder?
+
+  Yeah, I know exmh will pull the first comp in the path up from the
+  current folder to the mail root, but that's not what I want.
+
+I'm starting to use plus addressing heavily as part of my SPAM controls.
+Specifically I each mailing list with a list-specific address.
+
+  eg I would subscribe to this list as claw+exmh@kanga.nu or perhaps
+  claw+exmh-users@kanga.nu instead of claw@kanga.nu
+
+However to do this I need a new set of comp files for each list folder.
+As I'm subscribed to something just over 600 lists, that's rather a
+pain.  I really don't want to go create and maintain ~1,800 comp files
+(components, replcomps, replgroupcomps), especially not as I suspect
+I'll be changing or adapting my naming pattern a few times as I adapt
+various supporting tools.
+
+What would be great is if I could build the relevant comp file
+dynamically at runtime.  That way I don't need to maintain a couple
+thousand comp files, I just need to make my plus addresses
+predictable/computable based (say) on the folder path.
+
+  eg I'm currently in folder:
+
+    +-Lists-/Products/Exmh-L
+
+    The script would dynamically build a compfile which had a From: of
+    claw+exmh@kanga.nu for repl, comp, etc.
+
+  Similarly when in folder:
+
+    +-Lists-/Linux/SVLUG-L
+
+  I'd get a From: of claw+svlug@kanga.nu
+
+That way I can use lookup tables for those folders which have multiple
+lists being delivered into them.
+
+Any ideas how this might be done in an automatic/maintainable fashion?
+It would be more than good enough if all I had to do was drop a tiny
+FROM_HEADER file in each folder that somehow got picked up by the comp
+file...
+
+-- 
+J C Lawrence                
+---------(*)                Satan, oscillate my metallic sonatas. 
+claw@kanga.nu               He lived as a devil, eh?		  
+http://www.kanga.nu/~claw/  Evil is a name of a foeman, as I live.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

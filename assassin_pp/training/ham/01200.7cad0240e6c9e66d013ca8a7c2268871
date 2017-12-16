@@ -1,0 +1,54 @@
+I find Gnome2 with Red Hat's Limbo to be quite nice.
+
+On Thu, 2002-08-08 at 10:30, Matthias Saou wrote:
+> Once upon a time, Brian wrote :
+> 
+> >     I'm using the Gnome2 set of rpms through apt.  It's very good, though
+> >     it's shy of converted apps and such.  I really like it; it's the
+> >     simple, stable competitor to Windows(tm) that we all need/want/etc.
+> 
+> Well, you can already remove me from your "all" statement... :-( I've been
+> using GNOME 2 at home ever since it made it into Rawhide, and I must say
+> that I feel really uncomfortable with it : Things are just too limited and
+> you're now asked to stick with the defaults. I've already switched back
+> from Metacity to Sawfish, but for the main GNOME stuff like the panel and
+> the control center... there are now too few options for "advanced users"
+> like me who like to be able to configure as much as possible.
+> 
+> Let's see how it evolves... but the GNOME guys who decide seem to want to
+> change everything to be as simple and limited as possible to not confuse
+> the basic (lower then average IMHO) user. So in the meantime, I stick with
+> GNOME 1.4 and I'm quite happy with how it performs in my daily tasks
+> although it doesn't have the nice look of anti-aliased fonts (I mainly use
+> and LCD screen and projector anyway).
+> 
+> >     Problem is, though, Pango (a package that deals with international
+> >     font rendering) hasn't been made available to the apt repository on
+> >     Sunmore.net.
+> 
+> Maybe try grabbing it from the latest Red Hat Linux beta (Limbo) or from
+> Rawhide...
+> 
+> >     Who the heck do I contact for this, anyway?
+> 
+> Not me, sorry!
+> 
+> Matthias
+> 
+> -- 
+> Matthias Saou                                World Trade Center
+> -------------                                Edificio Norte 4 Planta
+> System and Network Engineer                  08039 Barcelona, Spain
+> Electronic Group Interactive                 Phone : +34 936 00 23 23
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

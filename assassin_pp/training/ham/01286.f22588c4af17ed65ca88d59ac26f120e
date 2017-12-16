@@ -1,0 +1,52 @@
+I flag spam at 7.0 and drop it altogether at 20.0. I do lots of whitelisting
+and have never had a false positive over 20.0.
+
+Actually I save the 20-and-over spams to a file and occasionally
+double-check it.
+
+This allows me to keep over 75% of the spam out of my mailbox entirely - I
+have 3-4 messages a day in my Spam folder instead of 20-30.
+
+My system doesn't allow me to bounce messages with SA, but doing so doesn't
+really get anybody removed from spam lists anyway... I have addresses that
+have been bouncing for years that still get spam.
+
+--
+michael moncur   mgm at starlingtech.com   http://www.starlingtech.com/
+"Truth is more of a stranger than fiction."             -- Mark Twain
+
+> -----Original Message-----
+> From: spamassassin-devel-admin@example.sourceforge.net
+> [mailto:spamassassin-devel-admin@lists.sourceforge.net]On Behalf Of Marc
+> Perkel
+> Sent: Sunday, July 21, 2002 11:15 AM
+> To: spamassassin-devel@example.sourceforge.net
+> Subject: [SAdev] Who uses Spam Assassin this way?
+>
+>
+> I know most people use SA to just tag spam - but I use it to also delete
+> and bounce spam.
+>
+> At 5 point I flag the message as spam and pass it on. At 18 points I
+> bounce the spam as if the user doesn't exist - in the hopes of being
+> removed from spam lists. I have modified scores on rules with large
+> numbers of FP to .1 and at 18 points I get no FP at all now.
+>
+> Therefore - one of my goals in improving the rules is to try to get real
+> spam up to 18 points. So if I have more good rules then real spam will
+> hit more rules and raise the point value.
+>
+> Anyhow - I was wondering how many of you are doing what I'm doing?
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

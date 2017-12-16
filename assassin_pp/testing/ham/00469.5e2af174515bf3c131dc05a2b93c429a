@@ -1,0 +1,23 @@
+John P. Looney's [valen@tuatha.org] 11 lines of wisdom included:
+>  OK, Mutt uses sendmail to deliver mail...
+> 
+>  How can I get it to deliver via a Postfix box with SMTP auth enabled ?
+
+Mutt interacts with smtpdaemon or something like that doesn't it?
+
+Can mutt interact directly with SMTP server with authentication
+capabilities? I don't think it can. 
+
+Surely you can just run a mailserver on your own machine and send
+mail using it? 
+
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

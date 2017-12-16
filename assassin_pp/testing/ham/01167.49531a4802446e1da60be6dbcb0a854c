@@ -1,0 +1,46 @@
+FYI,
+
+I modified the Mandrake package a few months ago -
+rather a nightmare to package, I must say. Some
+stability issues but that might be my flaky ATI
+drivers.
+
+My Linux box is sitting in storage this summer though,
+so I don't have the .spec with me.
+
+Anyone else tried running Falcon's Eye on Red Hat?
+
+Regards,
+
+Michel
+
+ --- Harri Haataja <harri.haataja@cs.helsinki.fi>
+wrote: > Another thing I see in debian but not in my
+RH
+> boxen.
+> 
+> http://falconseye.sourceforge.net/
+> 
+> It's a GL(?) interface to nethack :)
+> 
+> -- 
+> "And don't even think of quoting me out of context
+> ;)"
+> 	-- Michael Hinz in the Monastery
+> 
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list 
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

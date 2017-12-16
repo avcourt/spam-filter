@@ -1,0 +1,17 @@
+At 17:34 31/07/02 +0100, Liam Bedford wrote:
+>fdisk /mbr will restore a dos MBR.. it'll leave the partitions alone.
+
+
+Will clear the Partition table entries in the MBR if it does not end with 
+valid Boot signature.
+
+Regards Ger
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

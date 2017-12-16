@@ -1,0 +1,23 @@
+Michel Alexandre Salim (salimma1@yahoo.co.uk) wrote*:
+>Haven't installed Limbo beta2 myself - been sidetracked by work; the
+
+Limbo beta2 ? I'm running Limbo 7.3.92 with kernel 4.2.18-5.58, is what I am running
+an "older" version of the Limbo beta, it is it "the" limbo beta?
+
+btw, it does have that gconf editor included.
+
+I dumped the RPMS from the Limbo cd's 1 to 3 onto a drive, ran a few scripts, edited
+sources.list (rpm file:///path-to-files/RPMS.os os [I think]) and used "apt-get
+dist-upgrade", worked like a charm. The real RH installer couldnot handle an upgrade
+for me, it froze "searching for packages".
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

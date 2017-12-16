@@ -1,0 +1,32 @@
+
+> > > My feeling of this is that we really do not want to have a 
+> > > Ftoc_ClearCurrent, but rather just a RescanLine and the caller had 
+> > > better know the line or msgid. That routine shoud just put in the '+' 
+> > > if the line/msg in question happened to be the cur msg. Thoughts?
+> > 
+> > Intuitively, that sounds right to me.  It does also call "tag remove", so 
+> > you'll have to make sure that gets set correctly as well.
+> > 
+> > I think any changes that make it behave more intuitively are a good thing even 
+> > if they mean we have something else to fix.  Of course, that attitude is why 
+> > I've been fixing exmh bugs for 3 weeks.
+> 
+I have a version that's working now. I'll try it a couple of days and 
+check it during daylight. Basically I added an agument to 
+ClearCurrent and updated all callers to slap in $ftoc(curLine). I 
+also flipped the order in  Msg_Change to ClearCurrent $prevline after 
+the Mh_SetCur. For some reason it barfs when Marking many messages 
+Unread. I'll check that tomorrow.
+
+G'night.
+
+/Anders
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

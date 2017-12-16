@@ -1,0 +1,34 @@
+Rohit Khare wrote:
+> Yes, on a mailing list awash in crap -- and some it is even unsolicited 
+> commercial email, heavens! -- our trusty mailman filters captured and 
+> quarantined just two posts that week, one from me that was > 100K (the 
+> fat articles) and one that was bcc:d (the invite).
+
+Wait... I didn't think we had any filters set up on FoRK.
+Kragen, do you know of any?
+
+I personally have FoRK delivered to an address (napier%waste.org)
+that has SpamAssassin enabled, agressively, where it just nukes
+anything it thinks is spam. Usually I figure if I miss a FoRK post,
+no big deal, I'll pick it up by the replies if it's interesting.
+
+For personal mail (joe%barrera.org) I either don't use SpamAssassin,
+or use it but where it just flags messages instead of nuking them.
+So if someone is sending a message just to me, I'll get it even
+if it looks like spam.
+
+So in other words, Rohit, if you had sent to joe%barrera.org, I
+guess I would have received it in a timely fashion.
+
+So where's all that booze? When's the retry?
+Every robust protocol needs a retry strategy --
+what's yours?
+
+- Joe the Angry <Drunken booze="scotch">Dwarf</Drunken>
+
+P.S. Ain't no dwarf.
+
+
+http://xent.com/mailman/listinfo/fork
+
+

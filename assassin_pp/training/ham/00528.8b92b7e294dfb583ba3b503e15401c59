@@ -1,0 +1,53 @@
+
+  There was a server bug on the backup discovery server.  
+  It's fixed now.
+
+  cheers,
+  chad
+
+
+On 22/07/02 10:39 -0400, Scott Augustus wrote:
+) Can anyone offer some insight into the following error?  I am able to pipe mail 
+) through razor-check as root and it works fine but when it goes through the user 
+) filter via postfix I get the errors below.  What's strange is that this just 
+) started, I've made no changes, and it was running beautifully for days.
+) 
+) The goods:
+) 
+) Jul 22 10:59:39.878996 check[29891]: [ 1] [bootup] Logging initiated 
+) LogDebugLevel=3 to file:razor-agent.log
+) Jul 22 10:59:39.880196 check[29891]: [ 2]  Razor-Agents v2.12 starting razor-
+) check
+) Jul 22 10:59:41.929484 check[29891]: [ 3] Unable to connect to ARRAY
+) (0x80ff3c8):2703; Reason: Invalid argument.
+) Jul 22 10:59:41.934032 check[29891]: [ 1] vr4_signature: Bad ep4:
+) Jul 22 10:59:41.935634 check[29891]: [ 3] Unable to connect to ARRAY
+) (0x80ff3c8):2703; Reason: Invalid argument.
+) Jul 22 10:59:41.936022 check[29891]: [ 1] razor-check error: checkit: connect1: 
+) nextserver: No Razor servers available at this time
+) 
+) TIA!
+) 
+) ~S~
+) 
+) 
+) -------------------------------------------------------
+) This sf.net email is sponsored by:ThinkGeek
+) Welcome to geek heaven.
+) http://thinkgeek.com/sf
+) _______________________________________________
+) Razor-users mailing list
+) Razor-users@lists.sourceforge.net
+) https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

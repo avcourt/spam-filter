@@ -1,0 +1,27 @@
+On Sunday 28 July 2002 23:49, Niall O Broin wrote:
+> Yes, I know, dreadful subject. However, because of customer inistence we
+> must deploy one project on W2K. This will thus be a WAMP project rather
+> than a LAMP project. Of course as a highly skilled *ix person I can handle
+> these Windows toys :-) but can anyone suggest any good educational
+> resources for using Apache, PHP, Perl and MySQL together on W2K. Anyone had
+> to do the same and found any particular nasty gotchas (yes, I know about
+> the running Microsoft software one).
+
+I had Apache, mod_php and MySQL running on windows 95 once :)
+
+As far as I remember, the only problem was getting the MSI installer installed
+on win 95, but that was mentioned in the docs. w2k has that built in, so you
+won't have that problem. You should be able to find pre-built binaries for 
+win32.
+
+For perl try activestate.com, that's worked for me in the past.
+
+Nick
+
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+
+

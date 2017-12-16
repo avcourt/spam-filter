@@ -1,0 +1,27 @@
+Once upon a time, Harig, wrote :
+
+> I've found that the solution is to %define the needed values before
+> calling %configure, for example,
+> 
+> %define _prefix     /your/local/prefix
+> %define _includedir /your/local/prefix/include/%{name}
+> %configure  &&  %__make
+> 
+> If you follow the steps above, then %makeinstall can be called
+> without any overrides, which is a relatively nice, clean solution.
+
+You're absolutely right... and come to think of it, I must have done it
+that way in fact :-/
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

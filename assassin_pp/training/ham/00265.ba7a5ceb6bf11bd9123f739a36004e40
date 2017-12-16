@@ -1,0 +1,36 @@
+At 13:06 06/08/2002, John P. Looney wrote:
+>[snip]
+>  There is a nice need 'add_install_client' script that you feed the
+>archtecture, ethernet address & ip to, and it'll setup everything from
+>RARP to Bootparams for you. Very simple.
+
+Yep, very handy and easy enough.
+
+>  This script takes a -d option, to boot via DHCP also. On the negative
+>side, Sun's terminal handling leaves a lot to be desired - it won't work
+>properly on a Wyse 120+ for instance, no matter what emulation mode the
+>Wyse is trying to do.
+
+True, SUN's terminal handling isn't the best in the world.
+
+>  To do PC netbooting properly, you need an motherbard with a PXE BIOS.
+>Then you are flying.
+
+OR a network card with a BootRom installed, and BIOS support to boot of the 
+network.
+
+>  Heh, how hard would it be to get a PC with an OpenBoot prom ?
+
+You could burn a PROM yourself, if you'd wish. I believe that the netboot 
+project would have a PROM you could download and burn, having the needed 
+h/w of course.. ;)
+
+//Anders//
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

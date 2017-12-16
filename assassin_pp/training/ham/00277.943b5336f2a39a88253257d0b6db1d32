@@ -1,0 +1,67 @@
+
+BAD MSG:
+
+ > And you get a working version of your favourite KDE/Gnome desktop
+> > instead of DTE, uhm, I mean CDE.
+>
+> um.. http://wwws.sun.com/software/star/gnome/ integrated into solaris.
+
+Yeah yeah yeah. I tried it (over a year ago) and it sucked like a new vacuum
+cleaner. Although I expect that it will be a lot better by now. What I would
+really like to see is Gnome on one of the Sun Ray thin terminals.
+
+> Out of curiosity, does `normal fashion` mean that you still have to do the
+> interactive customisations or is it like Solaris jumpstart where you can
+> specify everything on the install server, do `boot net - install` go home,
+and
+> come in to a fully installed and patched desktop the next morning?
+
+Er, I mean normal fashion for a Linux install. This would be distro
+specific, anyway.
+
+I am sure it would be possible to do an automated install with a few script
+changes. I would not be surprised if Debian does this already.
+
+I do know that if you pass extra parameters on the boot command, they are
+picked up by silo. So:
+  boot disk linux
+
+would not prompt for selection but would boot straight through. From there
+it is a matter of tftp'ing the correct config file and the install would be
+automatic from there on.
+
+> I don't see why this should be a _major problem. The prom (ie the "ok"
+> prompt)
+> is almost at the hardware level and hence dosent depend on the os so you
+> should be able to connect to that easily enough. Once the machine is
+installed
+> cant you just log in over the network? The network is the computer after
+all
+> (sorry couldn't resist!)
+
+The problem is that the time between linux booting and when the console tty
+drivers are started can be a black hole, without error messages or log in
+prompts. The other problem is that sometimes Linux will drop in to the PROM
+on shutdown instead of powering off or rebooting. Without a serial cable or
+keyboard it is not possible to reboot the box without flicking the power
+switch hidden at the back of the case.
+
+I think if the console is ttya/ttyS0 it will drop into PROM. If it is
+/dev/null then you do not get console messages but the box will shut down
+properly.
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

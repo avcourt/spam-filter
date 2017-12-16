@@ -1,0 +1,56 @@
+--==_Exmh_-2120603942P
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Hal DeVore <haldevore@acm.org>
+> Date:  Tue, 01 Oct 2002 23:22:14 -0500
+>
+> I've had this binding in my ~/.exmh/exmhbindings for years:
+> 
+> set {bindings(key,Flist_FindUnseen 1 ; Inc_PresortFinish)} <Key-f>
+> 
+> After updating to the current code in CVS I get "bad key f" when 
+> I hit the "f" key.  I can open the Bindings... Commands window 
+> and define the binding.  It then works until I restart exmh.
+> 
+> I suspect a parsing problem/change.  I'll try to look into this 
+> tomorrow unless someone knows where the problem might be.
+
+Flist_FindUnseen has changed to Flist_FindSeqs.  It takes the same arguments, 
+but I changed the name because it looks for all the sequences, not just the 
+unseen sequence.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_-2120603942P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9mvsKK9b4h5R0IUIRAsiQAJ9cQeGocfBt4zgFi0J3kLd5f6a+NACffh/N
+rngnJZnZ5eU67ZIqlLGmC2w=
+=BCEQ
+-----END PGP SIGNATURE-----
+
+--==_Exmh_-2120603942P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

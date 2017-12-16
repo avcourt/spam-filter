@@ -1,0 +1,18 @@
+On Fri, Jul 19, 2002 at 05:06:59PM +0100, Matthew French wrote:
+
+> On that note: is there any real benefit to using hard links? I avoid them as
+> a rule, and cannot think of any good reason to use them at the moment.
+
+There are lots of benefits to using hard links, for all sorts of reasons. In
+this case, they are being used to provide two quite different namespaces
+for the same set of files.
+
+
+Niall
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

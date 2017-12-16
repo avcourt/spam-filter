@@ -1,0 +1,28 @@
+On Thu, 18 Jul 2002 13:00:29 +0200
+Matthias Saou <matthias@egwn.net> wrote:
+
+> Once upon a time, Matthias wrote :
+> > ..see subject.
+> ..see valhalla.freshrpms.net ;-)
+
+Hi, Matthias,
+
+You should temporarly remove gentoo 0.11.29 from valhalla.freshrpms.net.
+This build (and 0.11.28) has a strong bug: Problems with copying "deep"
+directories.
+
+Have reported this to Emil, he looks currently into it, a fix should be
+available soon..
+
+Sorry
+
+-- 
+regards from Germany
+                   Matthias
+                   
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,28 @@
+On Tue, 30 Jul 2002 22:22:24 +0200, "Manfred Grobosch" <mangro@home.se> wrote:
+
+> I would like to install RPM itself. I have tried to get the information by
+> visiting www.rpm.org <http://www.rpm.org>  and the related links they give
+> but they all seems to assume that RPM already is installed.
+> I have a firewall based on linux-2.2.20 (Smoothwall) for private use.
+> I would like to install the RPM package/program but there is no information
+> how to do this from scratch.
+> Found this site and hopefully some have the knowledge.
+
+    Well, if you have a Windows, SCO, or AIX box, (generally anything BUT Redhat Linux) that'd be the site I'd send you to, to get it installed.  I've been there for the same reason, under SCO.  Maybe you missed something?
+
+    What OS are you running, anyway?
+
+  
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

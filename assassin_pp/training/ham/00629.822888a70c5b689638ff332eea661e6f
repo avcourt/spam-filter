@@ -1,0 +1,32 @@
+On Mon, Aug 12, 2002 at 10:38:44AM -0700, Craig R . Hughes wrote:
+> This is, I think the biggest fallacy here.  You don't have to 
+> block jack shit to get a high trust rating, you just have to 
+> confirm Razor's existing opinion on a large number of messages:
+> 
+> if(check() == spam) then submit() else revoke()
+> 
+> That algorithm boosts trust, but reduces the information in 
+> SpamNet by damping.
+
+Again, this is not true. Only certain events (reports/revokes) for a spam
+are rewarded and the algorithm for picking these up is based on many
+different factors.
+
+-- 
+
+Vipul Ved Prakash          |   "The future is here, it's just not 
+Software Design Artist     |    widely distributed."
+http://vipul.net/          |              -- William Gibson
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

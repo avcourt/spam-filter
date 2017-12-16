@@ -1,0 +1,47 @@
+Declan Houlihan mentioned:
+> We're actually investigating switching from Sparc/Solaris to
+> Intel/Linux.
+
+And then:
+> At the moment at work, if we want a new workstation, we just
+> buy whatever Sun's latest system is, we jumpstart it, and
+> that's it, it's up and running.
+
+Well, why not try Linux on Sparc. It works pretty well and I have not had
+major issues with it. There are minor problems: like the serial console
+drivers, but for workstation installs I suspect it will work fine.
+
+And you get a working version of your favourite KDE/Gnome desktop instead of
+DTE, uhm, I mean CDE.
+
+> Basically the whole installation procedure is
+> "boot net - install"
+
+Well, you have to add the workstation to the install server first.
+
+Talking of which, you can install Sparc Linux using this technique as well.
+The image takes a while to load, but once this is done you can install in
+the normal fashion.
+
+SuSe for Sparc works fine. I am using Debian because the Sun boxen I have
+subverted do not have graphics consoles. It also just works.
+
+If you have a spare workstation, I am sure I could burn a couple of CD's for
+you. (If I can find them.)
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

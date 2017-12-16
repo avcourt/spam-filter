@@ -1,0 +1,43 @@
+On Thu, 8 Aug 2002, kevin lyda wrote:
+
+> the more the merrier
+
+indeed.
+
+> - makes it harder for spammers to do their work. however, tmda isn't
+> an smtp proxy normally.
+
+well, smtp being store and forward, what is an smtp proxy? :) that's 
+why i said "proxy".
+
+probably, the most effective way to stop spam in the long-term is to 
+configure your email server to use the SPEWS blacklist and a good open 
+relay blacklist.
+
+SPEWS: to force ISPs to take action against spammers 
+
+SPEWS /will/ list entire ISP netblocks /if/ the ISP consistently
+ignores/fails to take action on abuse reports over the course of
+several months. however, they're pretty quick at delisting once action
+is taken. in the long-term, and in absence of global and effective 
+anti-UCE regulations, it's the only realistic way to get to a spam 
+free internet.
+
+Open relay lists: to protect against relays obviously.
+
+> kevin
+
+regards,
+-- 
+Paul Jakma	Sys Admin	Alphyra
+	paulj@alphyra.ie
+Warning: /never/ send email to spam@dishone.st or trap@dishone.st
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

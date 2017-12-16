@@ -1,0 +1,28 @@
+Once upon a time, Daniel wrote :
+
+> > Well, the 7.3 binary should work as long as you install the "rpm404"
+> > (IIRC) compatibility library. The only problem I have with some rpm 4.1
+> > versions is that it sometimes hangs at the and of operations (-e, -i,
+> > -F or -U) and the only workaround is to kill it, "rm -f
+> > /var/lib/rpm/__*" and try again.
+> 
+> Well, you're lucky if it sometimes works for you.  Mine hang all the 
+> time, have to kill 'em with -9.  And after that, rpm doesn't work at all 
+> (hangs right after i run the command, prints nothing).  Have to reboot 
+> the machine to get anything rpm-related to work again.
+
+After that "kill -9", removing the "__*" files in /var/lib/rpm/ and trying
+again works 100% of the time for me. Did you try that?
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

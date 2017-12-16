@@ -1,0 +1,20 @@
+On Tue, 23 Jul 2002, Tabor J. Wells wrote:
+>Razor/Client.pm is part of Razor v1. You've installed Razor v2.
+>Spamassassin's current release only works with v1. Although IIRC
+>the current CVS code works with v2.
+
+Thanks, Tabor.  How do I install v1 over v2, and where does one
+get it?  (I don't see it at razor.sourceforge.net)
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

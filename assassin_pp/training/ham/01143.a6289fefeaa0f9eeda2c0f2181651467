@@ -1,0 +1,30 @@
+On Mon, 22 Jul 2002 09:42:18 +0200, "Nils O. Selåsdal" <noselasd@Utel.no> wrote:
+
+> Just for your information, I have an apt-repository for RH 7.3 at
+> http://utelsystems.dyndns.org
+> --
+> NOS@Utel.no
+
+    Your page has a typo;
+
+http://utelsystems.dyndns.org lists:
+    rpm http://utelsystems.dyndns.org/apt redhat testingrh73
+    rpm-src http://utelsystems.dyndns.org/apt redhat testing73  <--
+
+    This is why I'm so stubborn about using cut-and-paste; not only is it easy, it's typo-free.  :)
+
+Wouldn't it be nice if there was a way to manage these automagically?  Some central site to make them available to the rest of the world, every time there's a "apt-get update"?  :)
+  
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

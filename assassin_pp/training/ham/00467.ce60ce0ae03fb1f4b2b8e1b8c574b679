@@ -1,0 +1,78 @@
+> Are you using pthread_join(somethread,0);
+> When you are closing off your instanciated thread made from
+> pthread_t*somethread ?
+
+Something like this might help you out.... 
+
+Class la{
+ Public:
+	pthread_t*thread;
+	void thread_me(int num)
+	};
+
+la*lala;
+	
+typedef struct list
+{
+ la*w;
+ struct list*next;
+}list_struct;
+
+list_struct*head;
+
+void thread_me(int num);
+void add_to_list(la*o);
+void delete_from_list();
+
+int main(int argc,char**argv)
+{
+int a=1;
+
+ lala=new la;
+ thread= new pthread_t;
+ add_to_list(lala);
+ pthread_create(thread,0,&lala.thread_me,&a);
+
+ thread= new pthread_t;
+ add_to_list(lala);
+ pthread_create(thread,0,&lala.thread_me,&a);
+
+delete_from_linked_list();
+return 0;
+};
+
+void lala::thread_me(int num)
+{
+ printf("lalala");
+ pthread_join((*this)->thread,0);
+return;
+};
+
+void add_to_list(la*o)
+{
+ static list_struct*a;
+ a=new list_struct;
+ a->w=o;
+ a->next=head;
+ head=a;
+return;
+};
+
+void delete_from_linked_list()
+{
+ list_struct*a;
+
+ while(head!=NULL)
+	{
+	 a=head;
+	 head=head->next;
+ 	 delete a;
+	};
+ return;
+};
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

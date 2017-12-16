@@ -1,0 +1,25 @@
+Quoting John P. Looney (valen@tuatha.org):
+
+>  The RPMS are. The distribution as a whole work is copyright of SuSE.
+
+I've not seen any claim from SuSE of copyright over the distribution 
+as a whole.  (That would be a "compilation copyright", to use the legal
+term.)  But they definitely assert (and in fact own) copyright over
+YaST, YaST2, and the associated installer program.
+
+So, if one wanted to distribute a version of SuSE free of encumbrances
+from SuSE Linux AG, one would merely have to write a replacement
+installer and do without YaST/YaST2 (and probably a few other things
+they wrote).  A Simple Matter of Programming.
+
+-- 
+Cheers,               "That article and its poster have been cancelled." 
+Rick Moen                   -- David B. O'Donnel, sysadmin for America Online
+rick@linuxmafia.com
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

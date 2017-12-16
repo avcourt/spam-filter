@@ -1,0 +1,30 @@
+On 13.08.2002 at 08:42:44, "John P. Looney" <valen@tuatha.org> wrote:
+>  Vendors wrote their own wierd-ass installers & config tools to lock
+> people to their OS, they added all sorts of functionality that was not
+> availible to other OSes to make themselves different from the competition
+> (Motif on non-free OSes, incompatible filesystems etc).
+
+Not sure Motif is a good example, really. When Mozilla was going through its
+"Let's Use Motif/Let's Not" phase, Jamie Zawinski mentioned in passing that the
+installed base of Motif-bearing systems kicked the installed base of
+Linux-bearing systems into a huddled ball. Something, perhaps, to do with the
+fact that every
+Sun/Solaris box since version mumble shipped with it, plus every HP/UX box,
+and
+for all I know every other mainstream proprietary Linux. Motif was more a
+unifier across Unix subspecies than a differentiator.
+
+Now, filenames longer than 14 characters, maybe, or the options for ps (are we
+sysv or bsd?), or the whole /dev tree, or the libc implementation...
+
+Cheers,
+Waider.
+-- 
+waider@waider.ie / Yes, it /is/ very personal of me.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

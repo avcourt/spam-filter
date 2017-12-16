@@ -1,0 +1,34 @@
+> It works fine now that the sound card is removed, but I'm still confused
+> as to
+> why this worked in 2.2.18 but not 2.4.19, seems like a regression to me...
+> 
+> Thanks again,
+> 
+> Cheers,
+> ~Al
+Strange.
+
+I had the double IRQ problem with the 3c509 combo, 
+and turning pnp off in the card's firware fixed it.
+
+As far as I remember the problem I was having was 
+that the driver was assigning an IRQ to the card's
+ RJ45 port and then another IRQ to it's BNC port,
+ and then referenced the card via the second assigned irq,
+ and turning off PnP in the card's firmware fixed that.
+
+You must be having a different error
+Else
+PnP is still turned on.
+<<Obvious suggestion entails>>
+Making sure the IRQ and io space you assign
+the card in it's firmware is not in use by
+any other ISA devices.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,27 @@
+On Sun, Aug 11, 2002 at 11:17:47AM +0100, wintermute mentioned:
+> > The impression I get from reading lkml the odd time is
+> > that IDE has gone downhill since Andre Hedrick was 
+> > effectively removed as maintainer. Martin Dalecki seems
+> > to have been unable to further development without 
+> > much breakage. 
+> 
+> Hmm... begs the question, why remove Handrick?
+> If it ain't broke, don't fix it.
+
+ See, the IDE subsystem is like the One Ring. It's kludginess, due to
+having to support hundreds of dodgy chipsets & drives means that it is
+inherintly evil. A few months of looking at the code can turn you sour.
+Years of looking at it will turn you into an arsehole.
+
+ They haven't found a hobbit that can code, so mortal humans have to
+suffice. 
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

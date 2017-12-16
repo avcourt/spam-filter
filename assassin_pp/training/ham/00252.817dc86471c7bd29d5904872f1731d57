@@ -1,0 +1,20 @@
+On Sun, Aug 04, 2002 at 04:36:11AM -0600, SoloCDM wrote:
+> I tried several ways to force the command ln to create a link with
+> an option attached . . . it wouldn't work.
+> 
+> How are there four (/bin/dnsdomainname /bin/domainname
+> /bin/nisdomainname /bin/ypdomainname) different types of hostname
+> links with their own separate options?
+> 
+There's a switch statement in the program on argv[0].
+
+It's not including any options in the link.
+
+L.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

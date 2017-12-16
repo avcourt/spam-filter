@@ -1,0 +1,30 @@
+
+    I hate to ask...I've heard it mentioned several times here, but I couldn't find a digest, and the hits I found on Google turned up missing pages.  :(
+
+    I thought I was reporting spams all this time...the last month or so...but I wasn't.  I had a pathing problem going on, and a log-pathing problem, too, but hadn't noticed it yet.  Now, the system seems to be working, other than this message in the logs:
+
+    nextserver: Could not get valid info from Discovery Servers
+
+    What's the fix for this again?  Is it a server outtage, or something else?
+
+    I'm using the 2.03 sdk, and the new 2.14 agent...
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

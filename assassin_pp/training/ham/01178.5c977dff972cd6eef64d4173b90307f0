@@ -1,0 +1,33 @@
+Once upon a time, Manfred wrote :
+
+> I would like to install RPM itself. I have tried to get the information
+> by visiting www.rpm.org <http://www.rpm.org>  and the related links they
+> give but they all seems to assume that RPM already is installed.
+> I have a firewall based on linux-2.2.20 (Smoothwall) for private use.
+> I would like to install the RPM package/program but there is no
+> information how to do this from scratch.
+> Found this site and hopefully some have the knowledge.
+> Best regards Manfred Grobosch
+
+Well, you can simply use an rpm tarball (or extract one from a source rpm
+on a machine that has rpm scripts install "rpm2cpio <file.src.rpm> | cpio
+-dimv" and "./configure && make && make install" as usual. You need db3 or
+db4 development files at least, and once everything installed you'll need
+to initialize your rpm database.
+
+If you need more help, I suggest you join the rpm-list@redhat.com by
+subscribing at https://listman.redhat.com/
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

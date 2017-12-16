@@ -1,0 +1,31 @@
+On Mon, 5 Aug 2002, Ray Gardener wrote:
+
+> setup the config of pine to 
+> enable the enable-unix-pipe-cmd 
+> 
+> then when reading the message
+> 
+> enter 
+> 
+> |  razor-check 
+You should also enable raw mode (ctrl-w) and delimiters (ctrl-r) before 
+directing messages to the pipe. Raw mode includes the headers and 
+delimiters allow several messages to be submitted.
+
+-- 
+Mika Hirvonen <hirvox@welho.com>
+  http://nightwatch.mine.nu/
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

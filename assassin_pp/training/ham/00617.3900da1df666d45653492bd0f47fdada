@@ -1,0 +1,50 @@
+
+On Monday, August 12, 2002, at 11:06  AM, Jehan wrote:
+
+> Craig R.Hughes wrote:
+>> This is, I think the biggest fallacy here.  You don't have to 
+>> block jack shit to get a high trust rating, you just have to 
+>> confirm Razor's existing opinion on a large number of messages:
+>> if(check() == spam) then submit() else revoke()
+>> That algorithm boosts trust, but reduces the information in 
+>> SpamNet by damping.
+>
+> If you know a way to prevent people (spammer or not) to do that 
+> while allowing you to do it, pray, tell me.
+>
+> And I imagine easily that if someone submit/revoke at a very 
+> high rate, some alarm triggers on Razor's server resulting in 
+> their user id to be disabled/deleted.
+> I also suspect that the more you submit/revoke the same mail, 
+> the less influence it has on your trust. And since there isn't 
+> millions of different spam (it's always the same ones coming 
+> back over and over with maybe one or two different words, i.e. 
+> the same mail if fuzzy signatures work well), I guess that 
+> spammer will reach there limit pretty quickly.
+
+I was thinking you could easily create a spamtrap which you 
+subscribe to lots of legitimate nonspam mailing lists, plus you 
+also spread the email address around and get it in the hands of 
+lots of spammers so it ends up receiving large quantities of 
+both spam and nonspam, then you have it apply the algorithm 
+above to the incoming mail stream.  So it could be thousands of 
+actual real, different, emails per day.  The "very high rate 
+triggers alarms" thing is certainly something which would be 
+possible to check for, but there may be legitimate ways to 
+exhibit this behavior -- can't think of one right now but "AOL 
+proxy server" springs to mind as an example from another domain.
+
+C
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

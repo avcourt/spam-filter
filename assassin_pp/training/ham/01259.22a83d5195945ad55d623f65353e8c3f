@@ -1,0 +1,37 @@
+Matthias Saou (matthias@egwn.net) wrote*:
+>Then why bother : The new Red Hat Linux beta "(null)" is now available and
+>should be announced anytime now. It contains rpm 4.1-0.81.
+
+Ahhh ... this is funny. Last night I upgraded to Limbo II (.93).
+
+Installed Limbo II kernel, Installed libstdc++ from rawhide (rpm -ivh) so the
+newer apt would work, told apt it is OK to have multiple of libstdc++, copied
+the actual rawhide "libstdc++.so.5.0.0" file to another directory, removed that
+rawhide libstdc++ package, installed (rpm -ivh ) the Limbo II libstdc++ package
+(new apt does not like it), make that symlink "libstdc++.so.5" point to that
+rawhide file I moved earlier.
+
+Apt works again, dump the Limbo II rpms into a dir, run the "genaptrep.sh rh73",
+but "topdir" arg had changed, edit script, rerun, makes apt repository for Limbo
+II. Do "apt-get --ignore missing -f dist-upgrade". Apt wants to uninstall itself
+because that rawhide libstdc++ package is not installed, but apt works for the
+moment because of that symlink I made.
+
+Apt stays installed just long enough to issue the necessary "dist-upgrade"
+commands, several hours later, I have Limbo II, shiny and new. The install even
+made that symlink point back to the correct libstdc++ file.
+
+Several hours after that, I read my mail and realize that "null" directory I kept
+seeing while downloading Limbo II was not a fluke.
+
+Ahh, the joy. Repeat the above ....
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

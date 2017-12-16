@@ -1,0 +1,32 @@
+On Sun, Jul 21, 2002 at 09:11:08AM -0500, Brian Fahrlander wrote:
+> On Sun, 21 Jul 2002 15:12:11 -0400, che <che666@uni.de> wrote:
+> > > > > The server mentioned above works again now :)!
+> > > > Any problems with the rpm's they provided?
+> > > #redhat 7.3
+> > > rpm http://apt.sunnmore.net gnome2 73
+> > > rpm-src http://apt.sunnmore.net gnome2 73
+> > after apt-get install gnome-session
+>     Does it work more than once?
+>     Failed to fetch http://apt.sunnmore.net/gnome2/filename-here.rpm
+>    404 Not Found
+
+I got that with the earlier URL. Those that say 73/72 at the end work,
+though.
+
+I just installed gnome-terminal and I'm impressed by that. I have seom
+gtk1 apps to rebuild and put into my own repository (like gaim) so I
+didn't do the full session install. Besides, it's HUGE. And it wants to
+install stuff like kudzu and parted and who knows what. What's wrong
+with dynamic configuration? Dependency hell indeed.
+
+-- 
+> wd0: 1671040 partitions found
+That's a lie. Ignore it.
+		-- Seen on xMach mailing list
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,23 @@
+Is there a way to exclude a set of pages from the site map? For each
+page in the site I also create a "printer friendly" page, and I would
+like to exclude all of those form the sitemap.
+
+-- 
+-----------------------------------------------------------------------
+| Alan K. Jackson            | To see a World in a Grain of Sand      |
+| alan@ajackson.org          | And a Heaven in a Wild Flower,         |
+| www.ajackson.org           | Hold Infinity in the palm of your hand |
+| Houston, Texas             | And Eternity in an hour. - Blake       |
+-----------------------------------------------------------------------
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+webmake-talk mailing list
+webmake-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/webmake-talk
+
+

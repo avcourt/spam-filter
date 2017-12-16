@@ -1,0 +1,52 @@
+
+--=-eAUUkMeF/tAqB1Bi49Ip
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+
+I installed apt-get yesterday and liked it, for a couple hours anyway.=20
+Late last night I started to get errors like:
+
+
+--( root@theshadows )-- apt-get update
+E: Method http has died unexpectedly!
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+(...)
+
+i get the same errors (two like the first line instead of one) with
+apt-get update.
+
+I was wondering why this would happen.
+
+I would appreciate any help you all can give me.
+
+Thanks.
+
+--=20
+					-Govind Salinas
+ICQ:32026672					AIM:DyErthScum
+
+--=-eAUUkMeF/tAqB1Bi49Ip
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQA8YIlDhLd1P7Dk1P0RAhzSAKCUan9e5aIvrm2TVfcL0P+G4/ZkHQCgrv1l
+vpgf1Lp1ZZctS/jE4JiH4z4=
+=3dnC
+-----END PGP SIGNATURE-----
+
+--=-eAUUkMeF/tAqB1Bi49Ip--
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

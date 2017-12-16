@@ -1,0 +1,61 @@
+On Sun 28 Jul 2002 06:29, ilug-admin@linux.ie wrote:
+> Message: 3
+> From: "John Moran" <arronax@eircom.net>
+> To: "ILUG" <ilug@linux.ie>
+> Subject: RE: [ILUG] Optimizing for Pentium Pt.2
+> Date: Sat, 27 Jul 2002 17:10:39 +0100
+>
+> gcc, glibc and binutils, which the lfs site says not to optimise,
+> already determines what system you're compiling on, and optimises itself
+> to that. That's my understanding of how it works anyway.
+>
+> John
+>
+> Subject: Re: [ILUG] Optimizing for Pentium Pt.2
+
+That was my understanding too, but I since fould out that for Linux:
+
+Most programs and libraries by default are compiled with optimizing level 2
+(gcc options -g and -O2) and are compiled for a specific CPU. On Intel 
+platforms software is compiled for i386 processors by default. If you don't
+wish to run software on other machines other than your own, you might want to
+change the default compiler options so that they will be compiled with a 
+higher optimization level, and generate code for your specific architecture.
+
+Therefore:
+
+    export CFLAGS="-O3 -march=<architecture>" &&
+    CXXFLAGS=$CFLAGS
+
+This is a minimal set of optimizations that ensures it works on almost all
+platforms. The option march will compile the binaries with specific
+instructions for that CPU you have specified. This means you can't copy this
+binary to a lower class CPU and execute it.
+
+So these are the optimizations I need to worry about, and the optimizations 
+that lfs says to disable before compiling GCC or GlibC. However, GlibC seems 
+the most likely candidate for optimization since it provides the libs used by 
+even the most simple programs to access system calls in the kernel.
+
+I'm still waiting for info from the GCC mailing list RE: optimising/patching 
+GCC for performance improvement. So far the only suggestion has been to try 
+using icc, Intels C compiler. It's known to work with the kernel, but user 
+apps, and I guess libs and such might need rewriting to compile, and I'm not 
+prepared to go to this length.
+
+For QT and KDE it seems there are also gains to be made with object 
+pre-linking, but there are also risks with this so I'll just have to suck it 
+and see. Either way, I'm going to get started building the base today. I'm 
+still waiting for some DRI patches for my GVX1 card but it'll probably been 
+several days before I'm ready to build X anyway.
+
+Cheers,
+
+	John Gay
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,18 @@
+Hi,
+    Can anyone offer me any advice on using an MRi dual port PCI - serial
+card.  MRi claim it works, but that not at 9600 baud.  I AM using it at
+9600, but I get a 10s delay on output, followed by just 16 bytes,
+repeated untill complete.  Similarly, on input, I get a delay before the
+app' sees the data.
+
+TIA
+Shane
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

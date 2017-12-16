@@ -1,0 +1,22 @@
+Hi,
+
+I'm going to be using MySQL in an upcoming project (and probably
+buying their support license), and I'm wondering if anyone else
+has used any libraries to link a proprietary C++ project to a
+MySQL database. From what I can see on the MySQL website, their
+MySQL++ library is under the GPL, but there's also some documents
+which list it as under the LGPL.
+
+Anyone got any experience with this, or has used a different
+library to link C++ and MySQL under Linux?
+
+Regards,
+
+Vin
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

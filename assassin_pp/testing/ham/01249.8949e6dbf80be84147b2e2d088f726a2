@@ -1,0 +1,15 @@
+> This is a common problem with some build files that think you're cross
+> compiling, and when you really are, this is in fact a feature :-/
+> 
+> The workaround is to pass an extra argument to configure as follows :
+> 
+> %configure --program-prefix=%{?_program_prefix:%{_program_prefix}}
+
+Merci. It worked nicely.
+
+Pat
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

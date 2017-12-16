@@ -1,0 +1,23 @@
+I successfully made the leap to Razor 2.14.  I did have a bit of trouble
+with Digest::MD5 on Mandrake 8.1 and Mandrake 8.2.  On each platform, I had
+to reinstall the original version of Digest::MD5 over top of the Digest::MD5
+v2.20 that Razor-SDK installed.  Otherwise, Perl refused to compile a thing.
+
+I should have some effectiveness stats on Razor 2 in a few days.  We will
+see what % of our corporation's spam it detects.
+
+Fox
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

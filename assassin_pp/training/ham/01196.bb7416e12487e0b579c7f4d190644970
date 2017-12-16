@@ -1,0 +1,29 @@
+Hiya folks,
+
+I'm currently running RawHide, since I had the brilliant idea that, by
+using APT, it might actually be practical to keep up with the
+developments.
+
+However, APT seems to want a recompile - its sometimes leaving the RPM
+database in need of a db_recover - and gcc 3.2 seems to require a closer
+adherence to the standard than the C++ in APT was written for.
+
+This is a bit of a bummer.
+
+Does anyone know if there's a latest version I could try which might
+work, or whether I should simply do the porting myself? (I've made a
+start, but there's a fair amount of work to do.)
+
+If this works out, I might start a repository for the freshrpms compiled
+on vLatest RawHide, for my own purposes and anyone else who's
+interested.
+
+Dave.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

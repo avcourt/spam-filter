@@ -1,0 +1,31 @@
+On Fri, 26 Jul 2002 13:40:57 +0100 (BST), Michèl Alexandre Salim <salimma1@yahoo.co.uk> wrote:
+
+>  --- Angles Puglisi <angles@aminvestments.com> wrote:
+> > 
+> > I still think there's got to be a way to get the
+> > packages that make gnomehide
+> > from the Limbo CDs, they would be newer.
+> > 
+> Surely you just need to recompile and install them in
+> order?
+
+    Nope- this one's all about gnome-vfs2 and the developers understand each other's parts- it's a programming issues.  Some versions work together, some don't.  Just like rep-gtk and audiofile was for sawfish, in the previous version of Ximian-gnome.  :(
+.
+> Ximian packages are awful - I had recurring problems
+> with their packaged libxslt a few months back.
+
+    Yeah...That's why I was hoping someone else had a 'more gospel' set of files.  Oh, well.  I've found a URL on my system I can get to'em with Nautilus.
+  
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

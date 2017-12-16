@@ -1,0 +1,46 @@
+--==_Exmh_1920300774P
+Content-Type: text/plain; charset=us-ascii
+
+I've been working on salary related things the past few days, but I'm starting 
+to think about exmh again.
+
+Thanks to Robert for finding that s/$L/$lineno/ bug.
+
+So, has anybody else been looking at the performance issues that we were 
+talking about before I left, or should I dig right in?
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_1920300774P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9i297K9b4h5R0IUIRAiURAJ9aNU4uwQn+EwNOJlrvGJp9U4wVNQCcCkmT
+KgDY1o8a2qpBe53DfoNyX9g=
+=LClg
+-----END PGP SIGNATURE-----
+
+--==_Exmh_1920300774P--
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

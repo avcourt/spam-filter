@@ -1,0 +1,52 @@
+--==_Exmh_1217613150P
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Mon, 19 Aug 2002 21:44:48 +0200
+>
+> 
+> Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow on 
+> large (>100 msgs) unseen sequences. Anybody else having this problem?
+
+I'll take the blame.
+
+The reason, I suspect, is that we're needlessly reading the .sequences file 
+multiple times because of other sequences.  I need to make the code much 
+smarter about handling that file, but first I have a few other fish to fry in 
+my rather large patch that's on it's way.
+
+Chris
+
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+
+
+--==_Exmh_1217613150P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9YVQLK9b4h5R0IUIRAi47AJ4rVruKV1jEX9NVMEAFZR9grNn3YgCfcUlD
+MTk68Vxnxl3UUoU3yA4spLg=
+=ypKd
+-----END PGP SIGNATURE-----
+
+--==_Exmh_1217613150P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

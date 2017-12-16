@@ -1,0 +1,34 @@
+Declan Grady wrote:
+> Hi folks,
+> Apologies if this is the wrong place to ask, but I am trying to do on my linux desktop what I used to do with some other os software.
+> 
+> I'm trying to use a combination of some bash scripts and some perl to generate reports from a couple of ascii files. Eventually these will run on a server and get the files by ftp, analyse them and mail me the results.
+> 
+> As I'm no programmer (by any stretch of the imagination !) I'm getting a bit lost.
+> 
+> I can deal with single files (eventually) using grep, egrep, awk, and a nice perl script called 'total' which i found while googling.
+> 
+> Problem now is that the data I'm trying to report on is split between two isam files.
+> 
+> File 1 contains
+> Docket Number, Line Number, Item, quantity, price, duedate
+> 
+> File 2 contains
+> Docket Number, Customer, Shipping date, invoice number.
+> 
+> To make some sense of the data, I need to relate the Docket number between the 2 files, so that I can generate a report by customer.
+> 
+> My first reaction is to look at mysql, and import the ascii data into 2 tables so that I can use sql queries.
+> 
+> Is this the way to go, or should I delve a bit deeper into perl ?
+> 
+> Any advice welcome.
+
+man join
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,31 @@
+On Sun, Jul 21, 2002 at 04:15:16PM -0500, Lance wrote:
+> So to update from GNOME 1.4 to 2.0, after modifying
+> /etc/apt/sources.list, I just issue 'apt-update' then 'apt-install
+> gnome-session' ?
+
+Apparently, yes. Though for me it did suggest all sorts of creepy stuff.
+After installing packages one by one and removing some old stuff and
+whatnot, the original gnome-session from there suddenly no longer
+wanted parted and all that. Go figure.
+
+> Also Gaim doesn't work with GNOME 2.0 just yet?
+
+If you strip out the gnome stuff, it still runs as a Gtk app without the
+applet. Maybe you can even leave in the old panel and all that but I
+think some files will conflict and have to be overridden with
+--replace-files (dangerous). I just rebuilt gaim and made a few changes
+to the .spec adding --without-gnome to %configure or such. It might be
+nice to separate the panel version from the actual program like debian
+does.
+
+Also, bubblemon no longer compiled for me and Yelp had some broken
+dependency there.
+
+-- 
+If you only want to go 500 miles, can you begin with a halfstep?
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

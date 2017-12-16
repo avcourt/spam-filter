@@ -1,0 +1,36 @@
+On Fri, Jul 19, 2002 at 09:53:16PM +0100, awhalley@eircom.net wrote:
+> The setup is as follows:
+> I develop a piece of code using PHP 3.0.9 which is, to
+> my knowledge, GPL. 
+
+php's license is completely irrelevant to this.  think about it.
+solaris releases their system which includes /bin/sh.  their license
+is very restrictive and they retain the rights to their whole system.
+but they don't own every shell script ever written by solaris admins
+around the world.
+
+> The piece of code runs on my server and is an integral part of a system
+> that I have developed for a client. I did not recieve  payment for this
+> particular piece of code but I did recieve payment for the system. My
+> client now wants to use a different service provider but keep my code.
+> Do I have a right to claim intellectual property rights for  my little
+> piece of code that he did not pay me for or do I have to give the
+> client the code under the GPL.
+
+i doubt it.  and i suspect it would cost more to litigate then you
+would get.
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

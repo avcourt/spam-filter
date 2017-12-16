@@ -1,0 +1,60 @@
+Assuming cvspserver is actually running (try "netstat -na | grep 2401" to
+see if its there), make sure you have firewalling turned off or you have
+added a rule for it.
+
+
+
+
+> Hi, I'm setting up a CVS server on a RedHat 7.* box. First time.
+>
+> When I try to log in via telnet with an account that is in the "cvs" group
+> and run
+>
+> cvs login
+> password: xxxxx
+>
+> I get
+>
+> cvs [login aborted]: connect to localhost:2401 failed: Connection refused
+>
+>
+> > chkconfig --list  returns
+>
+> xinetd based services:
+>         linuxconf-web:  off
+>         swat:   on
+>         telnet: on
+>         cvspserver:     on
+>
+> As a cvs user
+>
+> [cvsdev1@localhost cvsdev1]$ echo $CVSROOT
+> :pserver:cvsdev1@localhost:/home/cvsroot/repository
+>
+> [cvsdev1@localhost cvsdev1]$ ls -la /home/cvsroot/repository/
+> total 12
+> drwxrws---    3 cvs      cvs          4096 Aug 12 11:26 .
+> drwxrwx---    7 cvs      cvs          4096 Aug 12 11:26 ..
+> drwxrwsr-x    3 cvs      cvs          4096 Aug 12 11:26 CVSROOT
+> [cvsdev1@localhost cvsdev1]$
+>
+>
+>
+> Where should I start looking?
+>
+> Thanks Justin
+>
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+information.
+> List maintainer: listmaster@linux.ie
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

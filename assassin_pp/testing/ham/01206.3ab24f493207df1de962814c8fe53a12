@@ -1,0 +1,57 @@
+
+Matthias Saou wrote:
+
+>Once upon a time, Julian wrote :
+>
+>  
+>
+>>One of the things you need to understand with gnome2 is that while they
+>>did simplify a lot of things, most of the configuration options people
+>>found very useful are still available through gconf. Learn to love
+>>gconf-editor ;) -- metacity can have sloppy focus (Desktop Preferences
+>>-> Window Focus -- there's actually GUI for that), and the delay until
+>>raising (and whether it raises) can be set in gconf-editor,
+>>/apps/metacity/general/auto_raise and auto_raise_delay
+>>    
+>>
+>
+>Well, I stand corrected :-)
+>The thing is, I hadn't used gconf-editor yet... and it's exactly what I
+>feared, old "not so good" memories are coming back : It looks exactly like
+>a GNOME RegEdit :-/ Oh well.
+>I still hope that the few missing features I'm still looking for will be
+>added in the next 2.0.x releases, like for example being able to have the
+>panel always under *all* other windows (if you know how to do that, I'm
+>really interested! ;-)).
+>  
+>
+More like Apple's implementation - the Gconf2 files are bog-standard 
+XML, should you feel tempted to edit it by hand :)
+
+There are some possibilities that using standardised configuration tools 
+provide: the ability to centrally manage a large number of computers - 
+something like Windows' group policy. Although that would require other 
+applications to use GConf as well .
+
+Haven't installed Limbo beta2 myself - been sidetracked by work; the 
+fact that the computer I'm installing it on is connected to a dodgy USB 
+ADSL modem that requires heavy kernel patching means that I would have 
+to do it over a weekend - but I don't think Red Hat currently does it 
+for its config tools.
+
+Regards,
+
+Michel
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

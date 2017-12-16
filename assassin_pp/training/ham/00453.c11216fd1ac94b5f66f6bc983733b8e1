@@ -1,0 +1,25 @@
+On Mon, Aug 19, 2002 at 11:50:25AM +0100, Colin Nevin wrote:
+> Hi All,
+> 
+> Just wondering if anyone has ever installed StarOffice
+> 6.0 (or Open Office), and if any have experienced any
+> problems with the install freezing ?
+
+Maybe give us some more information about your hardware.
+
+If you happen to be using an S3 Savage graphics card (as used in
+the IBM Thinkpad T20 and probably others) and you get strange display
+problems plus the freezing problem then set this environment variable:
+  SAL_DO_NOT_USE_INVERT50=true
+You will need this environment variable set when running soffice,
+so you should add an export line to your .bashrc.
+
+Hope this helps,
+
+David
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

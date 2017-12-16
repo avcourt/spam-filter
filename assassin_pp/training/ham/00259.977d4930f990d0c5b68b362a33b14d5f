@@ -1,0 +1,62 @@
+This is the problem, it's not the people who buy the machine that
+end up installing on it.
+
+We're actually investigating switching from Sparc/Solaris to 
+Intel/Linux. I would much prefer to be using Linux at work
+so I'm pushing for this. It definately doesn't help when 
+you're given a bog standard Dell box and linux won't work
+with the graphics card on it.
+
+At the moment at work, if we want a new workstation, we just
+buy whatever Sun's latest system is, we jumpstart it, and 
+that's it, it's up and running.
+Basically the whole installation procedure is
+"boot net - install"
+This is exactly what you need when you are administering a large
+group of workstations. You don't have the time to check dells
+website every time you want to buy a machine, you'd spend
+your life on Dells website and messing around with drivers
+and compiling new versions of X. That's fine if you've got
+one machine at home, hey, I've done it myself, but
+when working with a large bunch of systems, it's impossible.
+
+
+On Fri, Aug 02, 2002 at 04:02:38AM -0500, Stephen_Reilly@dell.com wrote:
+> > bad thing. Just a bad thing for those that hope a distro will 
+> > work out of
+> > the box.
+> 
+> 	It's still quite easy to find out, pre-purchase, what components if
+> any are going to give you problems with a specific distribution/version.
+> With Dell just check the support.dell.com site, match the system, look for
+> downloadable drivers. From these if there aren't any linux drivers you can
+> usually find out the chipset of each device. Plug them into google with
+> "linux" and see what people have to say about them. Generally speaking when
+> you buy the system you'll be told the make/model of each device rather than
+> the chipset, so further investigation is necessary.
+> 
+> 	The cavaet, of course, is always to know exactly what you're buying.
+> In most people's cases unfortunately it's not the person who bought the
+> systems that will be configuring them.
+> 
+> steve
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
+
+-- 
+---------------------------------------
+Declan Houlihan
+deccy@csn.ul.ie
+http://deccy.csn.ul.ie/
+---------------------------------------
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

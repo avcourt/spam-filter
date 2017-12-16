@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I send mail detected by Razor as spam to the spamtrap, which again reports it 
+as spam. Before I added the procmail rule to revoke (as my real life account) 
+Bugtraq messages that were flagged as spam, I manually revoked them as the 
+spamtrap (which keeps the last 32 messages sent to it). Thus the spamtrap 
+both reported as spam and revoked the same message. What happens to its trust 
+rating?
+
+Btw, what does "TeS" stand for?
+
+cmeclax
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9U0iD3/k1hdmG9jMRArnxAKCpw8ZpBWFo3+h7Y2mscN4WER6HEwCfauH9
+54LgdFZN2QQONm7awjHKN1c=
+=yKwF
+-----END PGP SIGNATURE-----
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,46 @@
+On Mon, 12 Aug 2002, Vipul Ved Prakash wrote:
+
+> On Mon, Aug 12, 2002 at 10:38:44AM -0700, Craig R . Hughes wrote:
+> > This is, I think the biggest fallacy here.  You don't have to
+> > block jack shit to get a high trust rating, you just have to
+> > confirm Razor's existing opinion on a large number of messages:
+> >
+> > if(check() == spam) then submit() else revoke()
+> >
+> > That algorithm boosts trust, but reduces the information in
+> > SpamNet by damping.
+>
+> Again, this is not true. Only certain events (reports/revokes) for a spam
+> are rewarded and the algorithm for picking these up is based on many
+> different factors.
+
+And those would be????
+
+Is there a point that you plan on releasing detailed information about
+TeS, so we can stop engaging in idle speculation?
+
+It's not my desire to second-guess you Vipul(however much my missives may
+appear otherwise) or question the hard work you and the other
+developers have put into the system, however it seems that every request
+for such information has been met with silence.
+
+Thanks.
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+                               Patrick Greenwell
+         Asking the wrong questions is the leading cause of wrong answers
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

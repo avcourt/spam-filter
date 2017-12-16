@@ -1,0 +1,27 @@
+bryan roycroft wrote:
+> has anyone got information on enabling ffs support in
+> the kernel, i was looking around, and information on
+> the subject seems to be sparse. 
+
+Is this to mount an OS-X partition?
+The following would be of interest in that case:
+http://marc.theaimsgroup.com/?l=linux-kernel&m=101198676827824&w=2
+
+summary is you should be able to mount FFS readonly,
+and the config item probably UFS:
+
+[padraig@pixelbeat ~]$ grep UFS /boot/config-2.4.18-3
+CONFIG_UFS_FS=m
+# CONFIG_UFS_FS_WRITE is not set
+
+So `modprobe ufs` should work on a standard RH7.3 install?
+
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

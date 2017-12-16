@@ -1,0 +1,25 @@
+CVS users: heads up! I think we've been talking about it long enough, so
+we might as well check it in now.  It's about time to check in
+http://bugzilla.spamassassin.org/show_bug.cgi?id=546
+
+This change will *remove* support for delivery to a local mailbox (ie the
+default mode of operation when "spamassassin" is run).
+
+In addition, the "From " line will no longer be added to mails as a
+result.
+
+--j.
+
+-- 
+'Justin Mason' => { url => http://jmason.org/ , blog => http://taint.org/ }
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

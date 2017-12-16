@@ -1,0 +1,33 @@
+On Sun, 28 Jul 2002, kevin lyda wrote:
+
+> 	    mod_gzip_item_include               file    \.htm$
+> 	    mod_gzip_item_include               file    \.html$
+> 	    mod_gzip_item_include               file    \.txt$
+> 	    mod_gzip_item_include               file    \.php$
+> 	    mod_gzip_item_include               file    \.php3$
+> 	    mod_gzip_item_include               file    \.php4$
+> 	    mod_gzip_item_include               file    \.pl$
+> 	    mod_gzip_item_include               mime    text/.*
+> 	    mod_gzip_item_include               mime    httpd/unix-directory
+> 	    mod_gzip_item_include               handler ^perl-script$
+> 	    mod_gzip_item_include               handler ^server-status$
+> 	    mod_gzip_item_include               handler ^server-info$
+
+hmm.. add \.swf and \.class to list of files above that can do with
+compressing.
+
+regards,
+-- 
+Paul Jakma	paul@clubi.ie	paul@jakma.org	Key ID: 64A2FF6A
+Fortune:
+No matter whether th' constitution follows th' flag or not, th' supreme
+court follows th' iliction returns.
+		-- Mr. Dooley
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

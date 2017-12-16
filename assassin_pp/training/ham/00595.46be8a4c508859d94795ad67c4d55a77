@@ -1,0 +1,38 @@
+On Fri, Aug 09, 2002 at 12:43:39AM -0400, cmeclax po'u le cmevi'u ke'umri wrote:
+> 
+> I send mail detected by Razor as spam to the spamtrap, which again reports it 
+> as spam. Before I added the procmail rule to revoke (as my real life account) 
+> Bugtraq messages that were flagged as spam, I manually revoked them as the 
+> spamtrap (which keeps the last 32 messages sent to it). Thus the spamtrap 
+> both reported as spam and revoked the same message. What happens to its trust 
+> rating?
+
+Maybe I'm the only one confused but what you are saying is that you
+have a spamtrap that receives Bugtraq messages and you are auto-
+matically reporting them as SPAM only to revoke them shortly there-
+after???  Either way automatic reporting is a Bad Thing (tm) IMHO.
+You should review and then report spamtrap or otherwise.  I'm not
+sure how this would affect your rating because I don't have any docs
+nor code to look at but I sincerely hope that if that's what you
+are doing that it negatively impacts your rating at a near exponential
+rate with every report/revoke cycle.
+
+> Btw, what does "TeS" stand for?
+
+Truth Evaluation System.  UTFG.
+
+http://www.google.com/search?q=razor+TeS
+
+-steve
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,36 @@
+I'm configuring this at the moment. -> Still ;--)
+
+I found out that my firewall box has a dodgy USB and so I'm awaiting a
+PCI-USB controller to finish the configuration. I meant to buy one yesterday
+and forgot. I've bought Smoothwall Corporate edition as its the best
+firewall/routing solution around or so I've been led to believe. 
+
+Will be doing NAT/Proxy/firewall, maybe VPN too but we shall see. 
+
+CW
+
+-----------
+Hi all,
+	I am seriously thinking of getting the ADSL "solo" connection
+from Eircom. I also have more than one computer therefore I need a router
+so that I can connect them together.
+The 2 options I am looking at are : 
+  the ADSL usb modem connected to my linux machine, with the linux
+	machine acting as firewall; and
+  a combined router / firewall box which would be connected directly
+	to the ADSL modem.
+
+So my questions are : 
+	what recommendations would any of you have about the above ?
+	do I need to have NAT (I have only a vague idea of what this does )?
+	what other options should I be looking at ?
+
+Thanks
+Con
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
