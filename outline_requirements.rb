@@ -14,3 +14,7 @@ pp_assassin_word_filter.first_ham
 pp_assassin_word_filter.classify_all("#{pp_assassin_testing_dir}ham/", 'ham')
 pp_assassin_word_filter.first_spam
 pp_assassin_word_filter.first_ham
+
+puts "\n************************* processing complete *****************************"
+puts "******************* Programmed by Andrew Vaillancourt *********************"
+puts "***************************************************************************"

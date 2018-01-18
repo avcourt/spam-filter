@@ -1,7 +1,5 @@
 require 'fast_stemmer'
 
-
-
 #*****************************************************************************
 #  @Author: Andrew Vaillancourt 7729503
 #  @COMP3190-A4
@@ -19,16 +17,16 @@ class SpamFilter
   attr_reader :total_h_toks
   attr_reader :tok_arr
   attr_reader :frequency_table
-  attr_accessor :count_spam
-  attr_accessor :count_ham
   attr_reader :file_count
   attr_reader :token_type
   attr_reader :cleaned
   attr_reader :spam_list
   attr_reader :ham_list
+  attr_accessor :count_spam
+  attr_accessor :count_ham
 
 
-  # Assumes training directory contains 2 directories(./spam ./ham)
+  # Assumes training directory contains 2 directories(./spam/ ./ham/)
   def initialize(training_dir, token_type)
     @parent_dir = training_dir
     @token_type = token_type
@@ -95,8 +93,8 @@ class SpamFilter
       freq = tokens.each_with_object(Hash.new(0)) { |tri, count| count[tri] += 1 } # create hash {:token => frequency }
       table.merge!(freq) { |k, o, n| o + n }  # update table with all tokens from this message
     end
-    table.delete_if{ |k, v| v.to_i < 2 }
-    table
+    # table.delete_if{ |k, v| v.to_i < 2 }
+    table 
   end
 
 
@@ -150,8 +148,7 @@ class SpamFilter
   # return probability that a token is spam from frequency table
   def get_prob_spam(token)
     if @frequency_table.has_key?(token)
-      probSpam = @frequency_table[token][2]
-      return probSpam
+      return @frequency_table[token][2]
     else # token not found"
       return ( 1.0 / @uniq_s_toks ) / ( @total_s_toks + 1 )
     end
@@ -160,8 +157,7 @@ class SpamFilter
   # return probability that a token is ham from frequency table
   def get_prob_ham(token)
     if @frequency_table.has_key?(token)
-      probHam = @frequency_table[token][3]
-      return probHam
+      return @frequency_table[token][3]
     else # token unique to this message
       return ( 1.0 / @uniq_s_toks ) / ( @total_s_toks + 1 )
     end
@@ -184,7 +180,7 @@ class SpamFilter
   end
 
 
-  # classify a single message as spam/ham returns filepath
+  # classify a single message as spam/ham returns true if message classified as spam
   def classify(filepath)
     @file_count += 1
     if prob_msg_spam(filepath) > prob_msg_ham(filepath)
@@ -235,7 +231,7 @@ class SpamFilter
   end
 
 
-  # print frequency table => :xyz :sFreq :hFreq :probSpam :probHam
+  # print frequency table => :tok :sFreq :hFreq :probSpam :probHam
   def print_frequency_table
     @frequency_table.each do |k,v|
       printf("token: %-10s spam: %-5s ham: %-5s pspam: %-25s pham: %-25s\n", k, v[0], v[1], v[2], v[3])
@@ -265,7 +261,7 @@ class SpamFilter
 
 
   def wait_message
-    t = Thread.new do
+    Thread.new do
       while true do
         print '.'
         sleep 2

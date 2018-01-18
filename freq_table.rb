@@ -12,3 +12,7 @@ pp_assassin_word_filter.classify_all("#{pp_assassin_testing_dir}spam/", 'spam')
 pp_assassin_word_filter.classify_all("#{pp_assassin_testing_dir}ham/", 'ham')
 
 pp_assassin_word_filter.print_frequency_table
+
+puts "\n************************* processing complete *****************************"
+puts "******************* Programmed by Andrew Vaillancourt *********************"
+puts "***************************************************************************"
