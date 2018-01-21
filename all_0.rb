@@ -51,7 +51,3 @@ enron_trigram_filter.classify_all("#{enron_test_dir}spam/", 'spam')
 enron_trigram_filter.classify_all("#{enron_test_dir}ham/", 'ham')
 print "=========================================================================="
 puts "==========================================================================="
-
-puts "\n************************* processing complete *****************************"
-puts "******************* Programmed by Andrew Vaillancourt *********************"
-puts "***************************************************************************"

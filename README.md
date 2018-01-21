@@ -19,7 +19,7 @@ Run any of the provided programs
 **Andrew Vaillancourt**
 
 ## License
-
+MIT
 
 
 
