@@ -15,11 +15,8 @@ Run any of the provided programs
 
 
 
-## Author
+### Author
 **Andrew Vaillancourt**
 
-## License
+### License
 MIT
-
-
-
