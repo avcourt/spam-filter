@@ -1,8 +1,7 @@
 require 'fast_stemmer'
 
 #*****************************************************************************
-#  @Author: Andrew Vaillancourt 7729503
-#  @COMP3190-A4
+#  @Author: Andrew Vaillancourt
 #
 #  A naive Bayesian spam classifier
 #
