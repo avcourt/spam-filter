@@ -219,15 +219,17 @@ class SpamFilter
 
   # prints info about frequency table and data analyzed
   def print_table_info
-    puts "\n\nTraining and frequency table info:"
+    puts "\n\nTRAINING AND FREQUENCY TABLE INFO"
+    # puts "``````````````````````````````````"
+    puts "----------------------------------"
     if @cleaned then puts "** Note some entries have been removed by feature selection" end
-    puts "\nTotal unique #{@token_type}s in all spam messages: \t\t#{@spam_table.length}"
-    puts "Total unique #{@token_type}s in all ham messages:  \t\t#{@ham_table.length}"
-    puts "Total unique #{@token_type}s in all combined messages: \t#{@frequency_table.length}"
-    puts "Total number of spam emails:  \t\t\t\t\t\t#{Dir["#{@parent_dir}spam/**/*"].length}"
-    puts "Total number of ham emails:\t\t\t\t\t\t#{Dir["#{@parent_dir}ham/**/*"].length}"
-    puts "Total tokens in spam emails:  \t\t\t\t\t\t#{@total_s_toks}"
-    puts "Total tokens in ham emails:\t\t\t\t\t\t#{@total_h_toks}"
+    printf("Total unique #{@token_type}s in all spam messages:    %16d\n", @spam_table.length)
+    printf("Total unique #{@token_type}s in all ham messages:     %16d\n", @ham_table.length)
+    printf("Total unique #{@token_type}s in all combined messages:%16d\n", @frequency_table.length)
+    printf("Total number of spam emails: %36d\n", Dir["#{@parent_dir}spam/**/*"].length)
+    printf("Total number of ham emails:  %36d\n", Dir["#{@parent_dir}ham/**/*"].length)
+    printf("Total tokens in spam emails: %36d\n", @total_s_toks)
+    printf("Total tokens in ham emails:  %36d\n", @total_h_toks)
   end
 
 
