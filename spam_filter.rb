@@ -1,4 +1,4 @@
-require 'fast_stemmer'
+# require 'fast_stemmer'
 
 #*****************************************************************************
 #  @Author: Andrew Vaillancourt
@@ -68,8 +68,8 @@ class SpamFilter
         words.each { |w| tokens.push(*(get_trigram(w))) } # get trigrams for each word in line, push them to tokens
       else # get words
         words.delete_if{ |w| w.length > 10 }
-        words.each { |w| tokens.push(w.stem) }  # swap with below to enable/disable stemming
-        # tokens.push(*words)                   # ----- swap me ------ #
+        #words.each { |w| tokens.push(w.stem) }  # swap with below to enable/disable stemming
+        tokens.push(*words)                   # ----- swap me ------ #
       end
     end
     tokens
@@ -81,8 +81,7 @@ class SpamFilter
   def find_frequency(dir_name)
     table = Hash.new # running total, gets updated for each file
 
-    filenames = Dir.entries(dir_name)  # array of filenames in directory
-    filenames.shift(2)  # delete parent directories
+    filenames = Dir.entries(dir_name).reject{ |fn| fn =~ /^\.{1,2}$/ }  # array of filenames in directory
 
     print "\nGenerating #{@token_type} frequency table for files in directory: #{dir_name}/   \t"
     wait_message
