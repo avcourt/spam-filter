@@ -21,6 +21,8 @@ Analysis of the effectiveness my implementation was assessed by running the 3 da
 ![Screenshot](g1.png)
 ![Screenshot](docs/g1.png)
 ![Screenshot](/docs/g1.png)
+![Screenshot](https://github.com/avcourt/spam-filter/blob/master/doc/g1.png)
+
 
 
 ### Dependencies
