@@ -3,10 +3,10 @@
 
 ## A naive Bayesian spam classifier in Ruby
 
-This implementation is centred around a `SpamFilter` class which accepts a training directory path in its constructor. It is assumed that the training directory contains two sub-directories: `spam` and `ham`.  The constructor also expects a string parameter ‘(`trigram` or `word-stem`) to determine how to tokenize the messages. `trigram` uses all three-character consecutive sequences of each string contained in the message. `word-stem` uses suffix stripped words as tokens. Both the trigram and word-stem tokenization strip all non-alpha-numeric characters from the message before tokenizing. All non-utf-8 characters are also scrubbed.
+This implementation is centred around a `SpamFilter` class which accepts a training directory path in its constructor. It is assumed that the training directory contains two sub-directories: `spam` and `ham`.  The constructor also expects a string parameter (`trigram` or `word-stem`) to determine how to tokenize the messages. `trigram` uses all three-character consecutive sequences of each string contained in the message. `word-stem` uses suffix stripped words as tokens. Both the trigram and word-stem tokenization strip all non-alpha-numeric characters from the message before tokenizing. All non-utf-8 characters are also scrubbed.
 
 
-There were two e-mail corpuses used in my experiments; The [SpamAssassin Training Corpus](http://csmining.org/index.php/spam-assassin-datasets.html) and the [Enron Spam Datasets](http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html). You may use these datasets to see similar results as shown below. I have included small trainnig and testing directories to illustrate usage.
+There were two e-mail corpuses used in my experiments; The [SpamAssassin Training Corpus](http://csmining.org/index.php/spam-assassin-datasets.html) and the [Enron Spam Datasets](http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html). You may use these datasets to see similar results as shown below. I have included small training and testing directories to illustrate usage.
 
  *Note: I’m unsure if the Enron datasets contain links to malicious sites so opening the email files in a browser is not recommended.*
 
